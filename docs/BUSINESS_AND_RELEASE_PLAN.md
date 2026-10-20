@@ -7,7 +7,7 @@
 **License:** MIT<br>
 **Public example:** [Public Catalog Normalizer](https://apify.com/victor_zhu/public-catalog-normalizer)
 
-**October 20 preview preparation:** English preview instructions and release notes, an isolated local demo check, source-only archive verification and a real dashboard walkthrough are now prepared. The expanded suite passes 57 tests on Windows; GitHub publication, hosted CI and a full live generation-to-publication recording remain pending. See the [preview runbook](PUBLIC_PREVIEW.md) and [current local evidence](VALIDATION.md#public-preview-preparation--2026-10-20). The dated live results and commercial hypotheses below retain their original scope.
+**October 20 public preview:** The source is public at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). Its [first hosted CI run](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339) passed all four Windows/Linux × Node 22/24 jobs, each including 57 tests, a clean demo and extracted-source verification. English preview instructions, release notes, source-only packaging and a real dashboard walkthrough are included. Private vulnerability reporting is enabled; a tagged GitHub release and full live generation-to-publication recording remain pending. See the [preview runbook](PUBLIC_PREVIEW.md) and [dated evidence](VALIDATION.md). The earlier live results and commercial hypotheses below retain their original scope.
 
 ## 1. The business in one paragraph
 

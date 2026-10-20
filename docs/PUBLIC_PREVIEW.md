@@ -1,8 +1,11 @@
-# GitHub public-preview preparation
+# GitHub public preview
 
-**Target:** QuotaForge `v0.1.0` source preview<br>
-**Prepared:** October 20, 2026<br>
-**Scope:** Prepare reviewable source, onboarding, verification and release material. Creating a public repository, pushing source and publishing a GitHub release are separate operator actions.
+**Repository:** [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify) (public)<br>
+**Workbench:** QuotaForge `v0.1.0` source preview<br>
+**Updated:** October 20, 2026<br>
+**Scope:** The public source repository has been created, the initial baseline pushed and its four hosted CI jobs verified as passing. Recheck subsequent revisions and onboarding, then prepare a reviewed tag and GitHub release; neither the tag nor release has been published.
+
+AI to Apify describes the project goal: use an installed Codex or Claude Code CLI to generate a bounded data-tool specification, verify it against independent fixtures and package it as an Apify Actor. The local workbench, dashboard and CLI retain the QuotaForge name.
 
 This preview asks a narrow question: can a new operator run the local workbench, inspect a bounded JSON normalizer and reproduce the independent fixture checks? It makes no earnings or fully autonomous business claim.
 
@@ -16,7 +19,9 @@ This preview asks a narrow question: can a new operator run the local workbench,
 | Codex | [October 15 live record](VALIDATION.md): real generation passed 3 independent fixtures | Preserve its date and scope; a local demo does not refresh this result |
 | Claude Code | Adapter implemented and locally tested; live generation pending | Keep the limitation visible in the README and release notes |
 | Apify | October 15 build, cloud fixture comparison and publication passed; October 20 read-only check confirmed build `0.1.1` and source integrity | Link the dated evidence; no new paid cloud operation is needed for local preview preparation |
-| GitHub Actions | Windows/Linux × Node 22/24 matrix is configured | No GitHub Actions run has been observed. Inspect the first actual run before claiming CI passes |
+| GitHub repository | Public source at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify); initial baseline `af9451325223befcd8b5f13002b2963163ee7340` | Review rendered documentation and reproduce setup from this remote |
+| GitHub Actions | [Initial baseline run](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339) passed all four Ubuntu/Windows × Node 22/24 jobs for `af9451325223befcd8b5f13002b2963163ee7340` | Inspect all jobs again for each subsequent published revision; the baseline result does not establish later commits pass |
+| Security reporting | GitHub private vulnerability reporting enabled and confirmed for this repository | Use [the private advisory form](https://github.com/VictoR0213/ai-to-apify/security/advisories/new) for sensitive reports; keep the reporting path working |
 | Demonstration | Reviewed screenshot and [four-step dashboard walkthrough](../assets/local-demo.gif) from a fresh local session | Full live generation-to-publication recording remains pending; keep local captures labeled accurately |
 | Business | $0 recorded receipts at the October 20 checkpoint; customer payments and profitability unverified | Keep commercial hypotheses separate from observed results |
 
@@ -25,6 +30,16 @@ The full generation-to-publication recording in the [release plan](BUSINESS_AND_
 ## New-user check without personal credentials
 
 Use a clean source copy and Node.js **22 or later**. No `npm install`, AI login or Apify account is required. Keep any personal `.env` file and project state outside this copy. The commands below only exercise local behavior.
+
+Clone the public repository into a new directory:
+
+~~~sh
+git clone https://github.com/VictoR0213/ai-to-apify.git
+cd ai-to-apify
+git rev-parse HEAD
+~~~
+
+Record that revision with the results below. The repository directory is `ai-to-apify`; application commands and local state retain the QuotaForge name.
 
 First run the repeatable checks:
 
@@ -119,11 +134,13 @@ Capture the real command execution and dashboard. Keep the recording outside the
 
 For a future live recording, use an operator-authorized account, sanitized fixtures and separate explicit confirmations for cloud operations. Record the provider version, generation result, fixture result, private build, exact-build cloud comparison and publication separately. New cloud work may incur charges; this preparation runbook does not authorize it.
 
-## Establish and verify the source baseline
+## Verify a source revision for release
+
+The initial public source baseline is [`af9451325223befcd8b5f13002b2963163ee7340`](https://github.com/VictoR0213/ai-to-apify/commit/af9451325223befcd8b5f13002b2963163ee7340). Its GitHub author and committer are `VictoR0213`. For each subsequent release candidate:
 
 1. Finish the source-only review, record current local checks and review the release-note draft at [releases/v0.1.0.md](releases/v0.1.0.md).
-2. Configure Git author details supplied by the operator if none are configured. Do not invent a maintainer identity.
-3. Create a reviewed initial source commit locally. Record the commit ID with `git rev-parse HEAD` and verify the working tree with `git status --short`.
+2. Verify the intended maintainer identity with `git log -1 --format=fuller`. Use operator-supplied Git details for new commits; do not invent a maintainer identity.
+3. Record the reviewed commit ID with `git rev-parse HEAD` and verify the working tree with `git status --short`.
 4. Build and verify the source-only archive:
 
    ~~~sh
@@ -136,29 +153,28 @@ For a future live recording, use an operator-authorized account, sanitized fixtu
 
 5. Record the archive SHA-256, source revision, exact verification commands and actual results. A preparation archive is not a published GitHub release.
 
-## GitHub publication handoff
+## Hosted checks and tag/release follow-up
 
-These steps are for the operator after the prepared source has been reviewed and publication authorized. No repository owner, remote URL or release URL is assumed.
+The public repository, first source push and passing baseline CI check are complete. Use [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify) for subsequent reviewed changes. The remaining steps below do not imply that a tag, release or full workflow recording already exists.
 
-1. Create an empty repository in the intended GitHub account or organization. Choose the intended visibility; avoid generating a second README, license or initial commit when publishing this existing baseline.
-2. Copy its actual remote URL. Inspect `git remote -v`, then add it only if no `origin` exists:
+1. Inspect `git remote -v` and verify that `origin` points to the intended repository:
 
    ~~~sh
-   git remote add origin <actual-repository-url>
+   git remote get-url origin
    ~~~
 
-   Replace the placeholder before running the command. If an origin already exists, verify it rather than overwriting it automatically.
+   The HTTPS URL is `https://github.com/VictoR0213/ai-to-apify.git`. An SSH URL for the same owner and repository is also valid. Do not overwrite an unexpected remote automatically.
 
-3. Review the commit and source-only contents one final time, then push the intended branch. For the existing `main` branch:
+2. Review subsequent commits and source-only contents, then push the intended branch. For `main`:
 
    ~~~sh
    git push -u origin main
    ~~~
 
-4. Inspect **Actions → Local preview checks** for this exact commit. Verify every configured Windows/Linux × Node 22/24 job and its logs, including `test`, `demo:check` and `preview:check`. A configured matrix, a local pass or a badge URL is not a GitHub CI result. Record the run URL and actual status; repair failures before calling the matrix passing.
-5. Enable **Settings → Security → Private vulnerability reporting** and verify that the reporting path in [SECURITY.md](../SECURITY.md) works for this repository. Review the rendered README, relative links and assets on GitHub.
-6. Update the release notes with the actual source revision, local/archive results, CI run URL and recording link. Describe any incomplete evidence plainly.
-7. After final release review, create and push the `v0.1.0` tag on the reviewed commit, then create the GitHub release using [the prepared notes](releases/v0.1.0.md). Check first that the tag does not already exist. Attach only the reviewed source archive and checksum if supplying custom assets.
-8. Verify the public repository and release from a signed-out view. Repeat the quickstart from the released source and record remaining onboarding issues.
+3. Inspect [Actions → Local preview checks](https://github.com/VictoR0213/ai-to-apify/actions/workflows/ci.yml) for this exact commit. Verify every configured Windows/Linux × Node 22/24 job and its logs, including `test`, `demo:check` and `preview:check`. A configured matrix, a local pass or a badge URL is not a GitHub CI result. Record the run URL and actual status; repair failures before calling the matrix passing.
+4. Keep **Settings → Security → Private vulnerability reporting** enabled; it was enabled and confirmed on October 20, 2026. Verify that the reporting path in [SECURITY.md](../SECURITY.md) remains valid. Review the rendered README, relative links and assets on GitHub.
+5. Update the release notes with the actual source revision, local/archive results, CI run URL and recording link. Describe any incomplete evidence plainly.
+6. After final release review, create and push the `v0.1.0` tag on the reviewed commit, then create the GitHub release using [the prepared notes](releases/v0.1.0.md). Check first that the tag does not already exist. Attach only the reviewed source archive and checksum if supplying custom assets.
+7. Verify the public repository and release from a signed-out view. Repeat the quickstart from the released source and record remaining onboarding issues.
 
 The `v0.1.0` label is the QuotaForge source preview. The historical Apify example build `0.1.1` belongs to that separate deployed Actor and is not a QuotaForge release number.

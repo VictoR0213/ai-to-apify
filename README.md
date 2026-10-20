@@ -1,3 +1,9 @@
+# AI to Apify
+
+**Generate, test and deploy small data tools as Apify Actors with your own AI CLI.**
+
+The public repository is [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). **QuotaForge** is the name of the local workbench, dashboard and CLI in this repository.
+
 <p align="center">
   <img src="assets/banner.svg" alt="QuotaForge — Build. Verify. Ship. Measure." width="100%">
 </p>
@@ -48,7 +54,7 @@ Latest local preview checks: [October 20, 2026](docs/VALIDATION.md). All **57 te
 
 ## Public preview
 
-The `v0.1.0` source preview is prepared locally. Follow the [public-preview runbook](docs/PUBLIC_PREVIEW.md) for clean-copy checks, source packaging and GitHub publication, and review the [release-note draft](docs/releases/v0.1.0.md). GitHub publication and the configured Windows/Linux × Node 22/24 CI matrix have not run yet.
+The source preview is public at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). The initial source baseline `af94513` passed all four Windows/Linux × Node 22/24 jobs in [GitHub Actions](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339). This result applies to that revision; check [Actions](https://github.com/VictoR0213/ai-to-apify/actions) for later commits. Follow the [public-preview runbook](docs/PUBLIC_PREVIEW.md) for clean-copy checks, source packaging and the remaining tag/release steps, and review the [release-note draft](docs/releases/v0.1.0.md). A `v0.1.0` tag and GitHub release have not been published.
 
 ~~~sh
 node --run demo:check
@@ -66,12 +72,16 @@ This walkthrough uses four actual dashboard captures from a fresh local session;
 
 Requirements: **Node.js 22 or later**. The local application uses Node built-ins and requires no npm dependency installation.
 
-Download this repository, open a terminal in its directory, and run:
+Clone the public repository, then run the local demo and dashboard:
 
 ~~~sh
+git clone https://github.com/VictoR0213/ai-to-apify.git
+cd ai-to-apify
 node --run demo
 node --run start
 ~~~
+
+You can also download the source ZIP from the repository's **Code** menu and open a terminal in the extracted directory.
 
 Open **http://127.0.0.1:4317**.
 

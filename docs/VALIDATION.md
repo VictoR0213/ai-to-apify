@@ -2,6 +2,27 @@
 
 This document separates implementation, local testing, live integration, and business evidence. They are not interchangeable.
 
+## GitHub publication and hosted CI — 2026-10-20
+
+The source is public at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). The repository name describes the AI-to-Apify workflow; QuotaForge remains the workbench's application and package name. GitHub reports both the author and committer of baseline [`af94513`](https://github.com/VictoR0213/ai-to-apify/commit/af9451325223befcd8b5f13002b2963163ee7340) as **VictoR0213**. The push-triggered workflow's actor and triggering actor are also VictoR0213.
+
+All four jobs in the [first hosted CI run](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339) completed successfully:
+
+| Runner | Node | Tests | Clean demo and extracted source |
+| :--- | :--- | :--- | :--- |
+| Ubuntu | 22 | 57 passed, 0 failed | Passed |
+| Ubuntu | 24 | 57 passed, 0 failed | Passed |
+| Windows | 22 | 57 passed, 0 failed | Passed |
+| Windows | 24 | 57 passed, 0 failed | Passed |
+
+Each job also passed the 3 independent demo fixtures and generated Actor tests. The source archive SHA-256 was identical across the four environments:
+
+```text
+4ac0ca9b8480a90b7093c731518137c1b1ea12e2b1646f72722fd4470bd83fed
+```
+
+This hash identifies the initial baseline, before documentation was updated with hosted results. Later commits must be checked through their own workflow run and archive hash. Private vulnerability reporting is enabled. No GitHub tag or release was created during repository publication, and these local/cloud-free checks add no new provider, Apify or commercial evidence.
+
 ## Public-preview preparation — 2026-10-20
 
 The reviewed local preview now passes **57 tests with 0 failures** on Windows with Node.js 24.19. Two regression cases cover ledger dates around midnight in Singapore and Los Angeles. Ledger validation now uses the computer's calendar date, matching the dashboard's date input.
@@ -17,7 +38,7 @@ The reviewed local preview now passes **57 tests with 0 failures** on Windows wi
 
 The preparation did not call a model or perform an Apify operation. The latest live generation and cloud fixture evidence remains the October 15 record below; the earlier October 20 cloud inspection is a separate read-only checkpoint. This agent-operated local walkthrough does not establish unassisted onboarding by a new external operator. A full live generation-to-publication recording remains pending.
 
-The first attempt in the restricted Windows execution sandbox failed on temporary-file replacement (`EPERM`) and loopback requests (`EACCES`). The same checks passed when those local operations were allowed. No application guard was disabled to obtain the pass. GitHub-hosted matrix results remain unverified until the source is pushed and Actions executes.
+The first attempt in the restricted Windows execution sandbox failed on temporary-file replacement (`EPERM`) and loopback requests (`EACCES`). The same checks passed when those local operations were allowed. No application guard was disabled to obtain the pass. Hosted CI had not run at that preparation checkpoint; the later actual hosted result is recorded above.
 
 See the [preview runbook](PUBLIC_PREVIEW.md) and [release-note draft](releases/v0.1.0.md). The final archive's adjacent `.zip.sha256` and embedded `PREVIEW-MANIFEST.json` identify its exact bytes; do not substitute an older archive hash after editing source.
 
