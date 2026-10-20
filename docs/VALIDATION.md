@@ -4,9 +4,9 @@ This document separates implementation, local testing, live integration, and bus
 
 ## GitHub publication and hosted CI — 2026-10-20
 
-The source is public at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). The repository name describes the AI-to-Apify workflow; QuotaForge remains the workbench's application and package name. GitHub reports both the author and committer of baseline [`af94513`](https://github.com/VictoR0213/ai-to-apify/commit/af9451325223befcd8b5f13002b2963163ee7340) as **VictoR0213**. The push-triggered workflow's actor and triggering actor are also VictoR0213.
+The source is public at [VictoR0213/quota-to-cash](https://github.com/VictoR0213/quota-to-cash). The repository name reflects the original experiment: put spare AI coding capacity into useful tools and measure actual receipts. QuotaForge remains the workbench's application and package name. GitHub reports both the author and committer of baseline [`af94513`](https://github.com/VictoR0213/quota-to-cash/commit/af9451325223befcd8b5f13002b2963163ee7340) as **VictoR0213**. The push-triggered workflow's actor and triggering actor are also VictoR0213.
 
-All four jobs in the [first hosted CI run](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339) completed successfully:
+All four jobs in the [first hosted CI run](https://github.com/VictoR0213/quota-to-cash/actions/runs/39421484339) completed successfully:
 
 | Runner | Node | Tests | Clean demo and extracted source |
 | :--- | :--- | :--- | :--- |

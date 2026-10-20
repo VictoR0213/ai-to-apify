@@ -1,16 +1,18 @@
-# AI to Apify
+# Quota to Cash
 
-**Generate, test and deploy small data tools as Apify Actors with your own AI CLI.**
+**Put unused AI coding capacity to work: build, verify and publish Apify tools you can offer for sale, then track actual income.**
 
-The public repository is [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). **QuotaForge** is the name of the local workbench, dashboard and CLI in this repository.
+The public repository is [VictoR0213/quota-to-cash](https://github.com/VictoR0213/quota-to-cash). **QuotaForge** is the name of the local workbench, dashboard and CLI in this repository.
+
+The idea is simple: use otherwise idle capacity from your own AI coding subscription to develop useful tools, check them against independent fixtures and publish them through your own Apify account. Record costs and real receipts to find out whether the work pays. The project does not read remaining subscription quota or sell access to it; customer demand and profitability remain unverified.
 
 <p align="center">
   <img src="assets/banner.svg" alt="QuotaForge — Build. Verify. Ship. Measure." width="100%">
 </p>
 
 <p align="center">
-  <strong>Give your next AI session something worth shipping.</strong><br>
-  Turn a small data-tool idea into a tested Apify Actor, then track what actually happens.
+  <strong>Give unused AI coding capacity a product to build.</strong><br>
+  Turn a small data-tool idea into a tested Apify Actor, then measure costs and actual receipts.
 </p>
 
 <p align="center">
@@ -54,7 +56,7 @@ Latest local preview checks: [October 20, 2026](docs/VALIDATION.md). All **57 te
 
 ## Public preview
 
-The source preview is public at [VictoR0213/ai-to-apify](https://github.com/VictoR0213/ai-to-apify). The initial source baseline `af94513` passed all four Windows/Linux × Node 22/24 jobs in [GitHub Actions](https://github.com/VictoR0213/ai-to-apify/actions/runs/39421484339). This result applies to that revision; check [Actions](https://github.com/VictoR0213/ai-to-apify/actions) for later commits. Follow the [public-preview runbook](docs/PUBLIC_PREVIEW.md) for clean-copy checks, source packaging and the remaining tag/release steps, and review the [release-note draft](docs/releases/v0.1.0.md). A `v0.1.0` tag and GitHub release have not been published.
+The source preview is public at [VictoR0213/quota-to-cash](https://github.com/VictoR0213/quota-to-cash). The initial source baseline `af94513` passed all four Windows/Linux × Node 22/24 jobs in [GitHub Actions](https://github.com/VictoR0213/quota-to-cash/actions/runs/39421484339). This result applies to that revision; check [Actions](https://github.com/VictoR0213/quota-to-cash/actions) for later commits. Follow the [public-preview runbook](docs/PUBLIC_PREVIEW.md) for clean-copy checks and source packaging. The [v0.1.0 release page](https://github.com/VictoR0213/quota-to-cash/releases/tag/v0.1.0) is the reference for its tagged source, release assets and checksums; [release notes](docs/releases/v0.1.0.md) describe the preview's scope and remaining limits.
 
 ~~~sh
 node --run demo:check
@@ -72,16 +74,16 @@ This walkthrough uses four actual dashboard captures from a fresh local session;
 
 Requirements: **Node.js 22 or later**. The local application uses Node built-ins and requires no npm dependency installation.
 
-Clone the public repository, then run the local demo and dashboard:
+Select the `v0.1.0` public preview, then run the local demo and dashboard:
 
 ~~~sh
-git clone https://github.com/VictoR0213/ai-to-apify.git
-cd ai-to-apify
+git clone --branch v0.1.0 --single-branch https://github.com/VictoR0213/quota-to-cash.git
+cd quota-to-cash
 node --run demo
 node --run start
 ~~~
 
-You can also download the source ZIP from the repository's **Code** menu and open a terminal in the extracted directory.
+You can also use the source ZIP and checksum linked from the [v0.1.0 release page](https://github.com/VictoR0213/quota-to-cash/releases/tag/v0.1.0), then open a terminal in the extracted directory. To follow ongoing development instead, clone the repository without `--branch v0.1.0 --single-branch`.
 
 Open **http://127.0.0.1:4317**.
 
