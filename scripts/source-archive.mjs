@@ -10,11 +10,16 @@ export const SOURCE_FILES = [
   'assets/banner.svg', 'assets/dashboard.png', 'assets/local-demo.gif',
   'docs/ARCHITECTURE.md', 'docs/BUSINESS_AND_RELEASE_PLAN.md', 'docs/INTEGRATIONS.md',
   'docs/PUBLIC_PREVIEW.md', 'docs/VALIDATION.md', 'docs/releases/v0.1.0.md', 'docs/updates/2026-10-20.md',
+  'docs/COMMERCIAL_VALIDATION_14_DAYS.md', 'docs/commercial/OUTREACH_TEMPLATES.md', 'docs/commercial/LEAD_SHORTLIST.md',
+  'examples/commercial-validation/research.json', 'examples/commercial-validation/campaign.json',
+  'examples/commercial-validation/evidence.example.json',
   'examples/catalog.json', 'package.json', 'public/app.js', 'public/index.html', 'public/styles.css',
   'scripts/check-demo.mjs', 'scripts/preview.mjs', 'scripts/source-archive.mjs',
+  'scripts/commercial.mjs',
   'src/adapters/apify.mjs', 'src/adapters/providers.mjs', 'src/artifact.mjs', 'src/cli.mjs',
   'src/ledger.mjs', 'src/runtime.mjs', 'src/server.mjs', 'src/service.mjs', 'src/spec.mjs', 'src/store.mjs',
   'test/adapters.test.mjs', 'test/core.test.mjs', 'test/run.mjs', 'test/server.test.mjs',
+  'test/commercial.test.mjs',
 ].sort();
 
 export const sha256 = (data) => createHash('sha256').update(data).digest('hex');

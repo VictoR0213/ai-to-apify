@@ -52,7 +52,7 @@ The prototype focuses on one useful job: **normalizing JSON records into consist
 
 > **Prototype, not a profit promise.** The local demo uses deterministic fixtures, with no model calls, cloud deployment, or fabricated income. A passing test does not establish demand. A ledger entry does not independently verify payment.
 
-Latest local preview checks: [October 20, 2026](docs/VALIDATION.md). All **57 tests passed**, including two local-date accounting regressions. A clean demo and tests from an extracted source archive passed on Windows with Node.js 24.19. The earlier [operational checkpoint](docs/updates/2026-10-20.md) records the public Actor and pinned build check. Creator monetization and customer demand remain unvalidated.
+Latest development checks: [October 20, 2026](docs/VALIDATION.md). All **63 tests passed**, including accounting date boundaries and six offline commercial-workflow checks. The `v0.1.0` release baseline passed 57 tests. A clean demo and tests from an extracted development source archive passed on Windows with Node.js 24.19. The earlier [operational checkpoint](docs/updates/2026-10-20.md) records the public Actor and pinned build check. Creator monetization and customer demand remain unvalidated.
 
 ## Public preview
 
@@ -236,6 +236,18 @@ The first release is deliberately bounded:
 Automatic customer acquisition, autonomous pricing, subscription resale, general-purpose generated-code execution, guaranteed revenue, and automatic detection of remaining subscription quota are outside this prototype.
 
 ## Roadmap
+
+The [14-day commercial-validation workflow](docs/COMMERCIAL_VALIDATION_14_DAYS.md) is prepared for an AI executor. It includes 25 source-linked research candidates, channel rules, draft outreach, pricing hypotheses and evidence definitions. It is **preparation only**: no messages, pricing changes or scheduled campaign are started by these offline commands.
+
+These new commands are on the development branch after `v0.1.0`; the pinned release in Quickstart does not include them. Use a separate `main` checkout for this workflow:
+
+~~~sh
+git clone --branch main --single-branch https://github.com/VictoR0213/quota-to-cash.git quota-to-cash-workflow
+cd quota-to-cash-workflow
+node --run commercial:check
+node --run commercial:plan
+node --run commercial:status
+~~~
 
 - **Now:** verified Codex generation, a successful Apify build and cloud fixture check, and a publicly published example pinned to the checked build.
 - **Next:** verify Claude Code live and test onboarding with fresh accounts.

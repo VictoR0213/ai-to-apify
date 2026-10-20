@@ -1,0 +1,1430 @@
+{
+  "version": 1,
+  "asOf": "2026-10-20",
+  "scope": "Dated public research fixtures for preparing, but not executing, a 14-day paid-demand validation experiment for quota-to-cash. Agency service descriptions and public demand signals are hypotheses, not qualified buyers, outreach permission, payment commitments or revenue. Personal handles are replaced with neutral labels; public source URLs remain for verification. No live outreach, purchases, monetization changes or scheduled execution are represented.",
+  "sources": [
+    {
+      "id": "S101",
+      "title": "Enhance Tech Solutions - Apify Expert Directory",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find/enhance-tech-solutions",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Offers e-commerce extraction, product tracking, feed generation, schema alignment, cleaning and version-controlled mappings.",
+      "limitations": "Self-described service capability in an official directory, not independently verified delivery performance or current procurement intent. The directory contact entrance is verified; a separately found website contact page failed direct retrieval."
+    },
+    {
+      "id": "S102",
+      "title": "AI Product Enrichment Agent for Ecommerce | Makeitfuture",
+      "publisher": "Makeitfuture",
+      "url": "https://www.makeitfuture.com/ai-agents/product-enhancement",
+      "source_type": "first_party_service_page",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Offers catalogue enrichment, feed-field cleaning, missing-field and duplicate handling, and connections to stores, PIM and ERP systems.",
+      "limitations": "First-party marketing claims. Existing overlapping services may make the firm a peer or referral candidate rather than a buyer. No current purchasing need or readiness for this project is verified."
+    },
+    {
+      "id": "S103",
+      "title": "Vertica A/S | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/vertica-as",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists an e-commerce agency, n8n workflow building, custom integrations and larger project-budget ranges.",
+      "limitations": "Profile establishes relevant service context only. Listed budgets describe its client projects, not its budget for buying this project's services. Procurement duration is an inference."
+    },
+    {
+      "id": "S104",
+      "title": "Datamagnet - Apify Expert Directory",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find/datamagnet",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists e-commerce/product data, price monitoring, structured extraction and integration with Apify, Make, Zapier and custom APIs.",
+      "limitations": "Self-described capabilities do not establish a current cleanup problem, purchasing intent or demand for another developer's product."
+    },
+    {
+      "id": "S105",
+      "title": "Parsedom Inc - Apify Expert Directory",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find/parsedom-inc",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists e-commerce/product data and end-to-end extraction, processing, automation and visualization.",
+      "limitations": "An existing scraping provider may be a peer, competitor or referral partner. Neither Actor development nor acceptance of new clients indicates purchasing intent."
+    },
+    {
+      "id": "S106",
+      "title": "Lexis Solutions - Apify Expert Directory",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find/lexis-solutions",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists e-commerce/product data, multi-source integration and clean structured outputs. Explicitly says it does not subcontract projects.",
+      "limitations": "Do not assume white-label subcontracting is welcome. Only discovery, referral or internal reusable-tool feedback is a proposed angle; all purchasing intent remains unknown."
+    },
+    {
+      "id": "S107",
+      "title": "Hyperstack Studio | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/hyperstack-studio",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists data-stack setup and automation using n8n, Make, Airtable, Xano and BigQuery.",
+      "limitations": "No catalogue-cleanup need is established by this verified profile. A retail service page appeared in search results but failed direct retrieval and is not used as an actionable contact route."
+    },
+    {
+      "id": "S108",
+      "title": "DataFix B.V. | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/datafix-bv",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists SMB workflow delivery, debugging, verification, managed service and custom nodes for reusable workflow logic.",
+      "limitations": "Relevant to repeated workflow logic, but no product-data use case or current buying intent is verified."
+    },
+    {
+      "id": "S109",
+      "title": "Data4Prime Srl | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/data4prime-srl",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists complex ETL, integrations, custom connectors, n8n implementation and support, including SMB clients.",
+      "limitations": "ETL relevance is indirect; catalogue data, specific repeated cleanup pain and purchasing intent remain unverified."
+    },
+    {
+      "id": "S110",
+      "title": "CLAUMA Consulting - Apify Expert Directory",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find/clauma-consulting",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists Make.com partner accreditation and workflows built using Apify, Make and AI.",
+      "limitations": "No product-data case, pipeline volume, current defect or buying intent is established."
+    },
+    {
+      "id": "S111",
+      "title": "Symplytics | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/symplytics",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists n8n/API workflows, ERP/CRM integrations and retail among the sectors served.",
+      "limitations": "Retail is broad and does not establish a catalogue/feed workflow. Current procurement intent is unknown."
+    },
+    {
+      "id": "S112",
+      "title": "AOE Group | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/aoe-group",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists custom nodes, complex API/data integrations, automated testing and an inventory/sales/fulfillment reference.",
+      "limitations": "Provider claims are not independently audited. Larger client-project budget ranges are not evidence of its own purchasing budget or of a guaranteed long procurement cycle."
+    },
+    {
+      "id": "S113",
+      "title": "FastRocket GmbH | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/fastrocket-gmbh",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists ERP/CRM/API/database integration, central data hubs and validation of invoices and delivery notes for manufacturing clients.",
+      "limitations": "Adjacent rather than catalogue-specific. Invoice validation must not be counted as proof of product-feed demand. Purchasing intent and decision timing remain unknown."
+    },
+    {
+      "id": "S114",
+      "title": "Dots & Arrows | n8n Service Partner Directory",
+      "publisher": "n8n",
+      "url": "https://experts.n8n.io/partner/dots-arrows",
+      "source_type": "official_directory",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Lists end-to-end automation and tailored integrations for client tools, processes and data.",
+      "limitations": "No explicit product-data, scraping or feed-cleanup case was verified. This is a reserve discovery candidate, not a qualified buyer."
+    },
+    {
+      "id": "S115",
+      "title": "Get the Most Out of Your Product Data with a PIM System",
+      "publisher": "Vertica A/S",
+      "url": "https://www.vertica.dk/en/services/pim/",
+      "source_type": "first_party_service_page",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Describes source-system data mapping, making product data consistent, modelling it in PIM and aligning data across channels.",
+      "limitations": "Demonstrates service relevance, not a current request to buy an external cleanup tool. PIM scope greatly exceeds the present fixed JSON normalizer."
+    },
+    {
+      "id": "S116",
+      "title": "Book a Call | Makeitfuture",
+      "publisher": "Makeitfuture",
+      "url": "https://www.makeitfuture.com/book-a-call",
+      "source_type": "first_party_service_page",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Provides a public business appointment form beginning with a company website and work contact details.",
+      "limitations": "Verified as a public contact entrance only. No form was submitted, calendar booked or message sent."
+    },
+    {
+      "id": "S201",
+      "title": "How do you handle supplier spreadsheets when updating your store? - post 5",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/5",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-09-06 11:02 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D01 describes supplier-data cleanup and interest in reliable affordable mapping and validation.",
+      "limitations": "Public self-report, not independently verified; interest is not a payment commitment. Same topic as S202/S203. No automated outreach is authorized."
+    },
+    {
+      "id": "S202",
+      "title": "How do you handle supplier spreadsheets when updating your store? - post 10",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/10",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-09-07 17:00 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D02 reports a roughly one-hour update, mainly supplier-SKU lookup against Shopify Handles.",
+      "limitations": "Public self-report; no buying intent or continued unmet need verified. Same topic as S201/S203, not an independent channel."
+    },
+    {
+      "id": "S203",
+      "title": "How do you handle supplier spreadsheets when updating your store? - post 4",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/4",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-09-06 08:05 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D03 describes 3,000-SKU reconciliation time, identifier damage and mismatched import keys.",
+      "limitations": "Operator/expert self-report; buyer role and authority unknown. Platform behavior was described by the poster and is not independently certified here."
+    },
+    {
+      "id": "S204",
+      "title": "Product Import Integration for POS/Retailers",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/product-import-integration-for-pos-retailers/687184",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-09-24 20:32 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D04 reports new-SKU data-entry friction and asks for a wholesale purchase-to-product import integration similar to Faire.",
+      "limitations": "The desired integration is broader than file normalization. A paid file-only alternative, budget and buying authority have not been tested."
+    },
+    {
+      "id": "S205",
+      "title": "Shopify metafield mapping when syncing products from UnoPim",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/shopify-metafield-mapping-when-syncing-products-from-unopim/676877",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-09-05 07:28 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D05 describes an active UnoPim integration and asks how to map several attribute types and handle later type changes in Shopify.",
+      "limitations": "Technical integration question, not an explicit purchasing request. The reporter's role and budget are unknown; replies do not establish current API guarantees."
+    },
+    {
+      "id": "S206",
+      "title": "Supplier SKU, Cost, Tax % Bulk Editing",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/supplier-sku-cost-tax-bulk-editing/622276",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-05-12 16:49 (timezone unknown)",
+      "last_relevant_self_report_at": "2026-07-08 15:35 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D06 describes a 10,516-variant, 200-plus-supplier operation and manual supplier-data maintenance; a later update says Inventory Planner files now feed Shopify PO imports.",
+      "limitations": "Recent replies by other people do not prove that the original reporter remains blocked. The workflow changed after the original complaint and needs requalification."
+    },
+    {
+      "id": "S207",
+      "title": "Adding supplier SKUs to products that can map to purchase orders",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/adding-supplier-skus-to-products-that-can-map-to-purchase-orders/631789",
+      "source_type": "first_party_forum_post",
+      "published_at": "2026-06-08 19:07 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D07 wants supplier identifiers held separately from store identifiers and carried automatically into POs to reduce manual entry.",
+      "limitations": "No later first-person update by the original reporter was observed. September follow-up questions by another developer do not verify continuing demand."
+    },
+    {
+      "id": "S208",
+      "title": "API Installation into Shopify",
+      "publisher": "Make Community",
+      "url": "https://community.make.com/t/api-installation-into-shopify/90779",
+      "source_type": "first_party_forum_post",
+      "published_at": "2025-08-31 00:46 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D08 requests safe scheduled supplier-JSON-to-Shopify synchronization for thousands of products, including SKU matching, changed fields, duplicate handling and logs.",
+      "limitations": "Historical request; the topic was automatically closed on 2025-09-30 and is archived. It is not a current open lead and must not be used for automated outreach."
+    },
+    {
+      "id": "S209",
+      "title": "Update Shopify inventory with CSV export, but only for matching SKUs",
+      "publisher": "Make Community",
+      "url": "https://community.make.com/t/update-shopify-inventory-with-csv-export-but-only-for-matching-skus/80357",
+      "source_type": "first_party_forum_post",
+      "published_at": "2025-04-28 18:26 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D09 needs daily POS CSV quantities applied only where a Shopify SKU exists, ignoring unmatched source rows.",
+      "limitations": "The latest visible reply is 2025-04-29. No current unmet need or buying intent has been verified; much of the issue is workflow mapping rather than cleaning."
+    },
+    {
+      "id": "S210",
+      "title": "Changing an excel sheet to a certain format",
+      "publisher": "n8n Community",
+      "url": "https://community.n8n.io/t/changing-an-excel-sheet-to-a-certain-format/83459",
+      "source_type": "first_party_forum_post",
+      "published_at": "2025-03-02 13:40 (timezone unknown)",
+      "last_relevant_self_report_at": "2025-03-10 15:31 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D10 asks to map supplier spreadsheets into a fixed product/price output and later asks how to adapt when source columns differ each time.",
+      "limitations": "Historical discussion. Linked sheets were shown as private and were not accessed; no real file was verified. No current demand or payment commitment is established."
+    },
+    {
+      "id": "S211",
+      "title": "How to Handle Constantly Changing Product Catalog",
+      "publisher": "Shopify Community",
+      "url": "https://community.shopify.com/t/how-to-handle-constantly-changing-product-catalog/395054",
+      "source_type": "first_party_forum_post",
+      "published_at": "2025-02-17 02:53 (timezone unknown)",
+      "retrieved_at": "2026-10-20",
+      "evidence_summary": "Demand signal D11 reports roughly 10,000 products across eight brands, incomplete supplier inputs and the need for content acquisition, formatting, import and discontinued-line handling.",
+      "limitations": "No later original-author update was observed. Replies through October 2026 do not make the February 2025 request current; most needs exceed the initial normalization offer."
+    },
+    {
+      "id": "S301",
+      "title": "Apify Store Publishing Terms and Conditions",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/legal/store-publishing-terms-and-conditions",
+      "published_at": "2026-09-15",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Public Actors are available in Store. The terms restrict off-platform product or service promotion in Store content and non-Apify payment gateways. Verified Creator status requires KYC. Reported profit can change after refunds or unpaid invoices.",
+      "limitations": "Last-updated date, not original publication date. This is an operational summary, not legal advice. Section 10.3.2 mentions a USD 20 PayPal minimum and USD 100 for other methods; the payout documentation separately includes Wise in its USD 20 group. Confirm the applicable method in Console."
+    },
+    {
+      "id": "S302",
+      "title": "Monetize Actors",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/actors/publishing/monetize",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "PPE supports programmatically triggered paid events. Analytics distinguish paid and free users. Per-request agentic payments require PPE without additional platform-usage billing, limited permissions, no Standby mode, and completed creator KYC.",
+      "limitations": "Availability of these features for this project's current account has not been checked. Agentic-payment eligibility is not evidence of discovery, customer demand, or revenue."
+    },
+    {
+      "id": "S303",
+      "title": "Set up Actor monetization",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/actors/monetize/set-up-monetization",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "Billing and payment details precede monetization setup. Significant pricing changes normally require 14 days and are limited to one per month; the documentation says the waiting period does not apply if the Actor has no paying users.",
+      "limitations": "No billing, payout, or monetization configuration was read or changed. The experiment should freeze its initial price rather than assume unrestricted daily price increases."
+    },
+    {
+      "id": "S304",
+      "title": "Actor pricing and costs",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/actors/publishing/monetize/pricing-and-costs",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "The documented profit formula is 0.8 times event revenue minus platform costs. Only paid-plan users' revenue and costs count; free-plan usage produces no creator revenue and its platform cost is covered by Apify.",
+      "limitations": "A paid-plan flag is a revenue-eligibility signal, not proof that a particular customer's invoice has settled. The experiment's actual compute, storage, and transfer costs remain unmeasured."
+    },
+    {
+      "id": "S305",
+      "title": "Manage payouts",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/actors/publishing/monetize/monthly-payouts",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "Payout eligibility requires billing details, a payment method, and identity verification. Previous-month invoices issue on day 11, are automatically approved on day 14 if untouched, and payouts issue on days 21-25. Thresholds are USD 20 for PayPal/Wise and USD 100 otherwise.",
+      "limitations": "The Store terms do not separately list Wise under the USD 20 threshold. Payouts depend on legitimate already-paid users, thresholds, KYC, reviews, and transfer processing. A 14-day demand experiment cannot promise cash receipt."
+    },
+    {
+      "id": "S306",
+      "title": "Pay-per-event pricing model",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/actors/publishing/monetize/pay-per-event",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "The platform provides automatically charged start and default-dataset-item events. Results should be saved and accessible before billing. Users set maximum run costs; charging and processing must respect those limits.",
+      "limitations": "The proposed USD 0.01 start plus USD 0.002 per delivered record is this project's experiment hypothesis, not Apify's prescribed price. Verify synthetic versus custom charging to avoid duplicate charges."
+    },
+    {
+      "id": "S307",
+      "title": "GitHub Acceptable Use Policies",
+      "publisher": "GitHub",
+      "url": "https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Project-related promotional links or text may appear in the owner's README or project description. Advertising in other users' accounts, excessive automated bulk activity, and using collected user information for unsolicited email or spam are prohibited.",
+      "limitations": "Permission for project-related README content is not permission for automated prospecting, mass issue creation, fake stars, or unsolicited messages. Relevant project content must remain the repository's main purpose."
+    },
+    {
+      "id": "S308",
+      "title": "Apify MCP server",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/mcp",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "External agents can discover and run Store Actors through MCP. Apify AI shares the search/execution backend. Ranking uses factors similar to Actor quality score; full-permission Actors are excluded.",
+      "limitations": "Search inclusion, position, third-party agent adoption, and payment for this Actor have not been verified. Discovery checks can use public search/detail tools; paid runs require separate authorization and must never count as customer demand when self-funded."
+    },
+    {
+      "id": "S309",
+      "title": "Actor-to-Actor integrations",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/integrations/actors",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "Integration-ready Actors can receive another Actor's output. Store has an Integrations category for these targets, and users can add a target from an Actor's Integrations tab.",
+      "limitations": "This project's integration-ready configuration and catalog eligibility have not been audited. Compatibility documentation does not grant permission to advertise on another creator's issues or alter another user's workflow."
+    },
+    {
+      "id": "S310",
+      "title": "Find the right Apify Expert",
+      "publisher": "Apify",
+      "url": "https://apify.com/partners/find",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "The official directory lists certified scraping and automation providers with public service descriptions. Some explicitly offer data cleaning, normalization, schema alignment, CRM cleanup, or Apify/Make integration.",
+      "limitations": "Directory membership, accepting clients, and public contact details do not establish buying intent or consent to automated sales outreach. Do not invent procurement budgets or claim partnership."
+    },
+    {
+      "id": "S311",
+      "title": "Becoming an n8n template creator and getting help",
+      "publisher": "n8n",
+      "url": "https://support.n8n.io/article/becoming-an-n8n-template-creator-and-getting-help",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_docs",
+      "evidence_summary": "Templates are submitted through creator accounts under Creator Hub guidelines. New creators submit one template at a time. Review usually takes up to a week; three approved templates qualify for verified status.",
+      "limitations": "The complete Creator Hub submission rules and permission for unattended AI submissions were not verified. Do not extrapolate template submission permission from this help page or confuse it with forum posting permission."
+    },
+    {
+      "id": "S312",
+      "title": "Apify Community Code of Conduct",
+      "publisher": "Apify",
+      "url": "https://docs.apify.com/legal/community-code-of-conduct",
+      "published_at": "2025-08-18",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Links must be relevant and explained, not posted simply to attract traffic. Unsolicited links to one's own project in other users' threads, cross-posting, and content-free bumps are discouraged or prohibited by the community standards.",
+      "limitations": "The effective date is explicit. Server-specific permissions for AI bots or promotional channels have not been verified; missing prohibition is not affirmative permission."
+    },
+    {
+      "id": "S313",
+      "title": "Automated User Accounts (Self-Bots)",
+      "publisher": "Discord",
+      "url": "https://support.discord.com/hc/en-us/articles/115002192352-Automated-User-Accounts-Self-Bots",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Discord offers separate bot accounts. Automating normal user accounts outside the OAuth2/bot API is forbidden and can result in account termination.",
+      "limitations": "A compliant bot account still needs a server's permission and must follow its rules. This does not authorize cold DMs, spam, or installing bots in servers controlled by others."
+    },
+    {
+      "id": "S314",
+      "title": "This forum is for humans, by humans",
+      "publisher": "n8n Community",
+      "url": "https://community.n8n.io/t/this-forum-is-for-humans-by-humans/305091",
+      "published_at": "2026-07-27",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "The official announcement prohibits AI-produced forum questions and replies posted without the poster's own understanding and engagement. AI-generated material can be removed as spam.",
+      "limitations": "This rules out the proposed no-human forum posting workflow. It does not prohibit private AI research or establish the separate template library's rules."
+    },
+    {
+      "id": "S315",
+      "title": "Make Community: Do's and Don'ts",
+      "publisher": "Make Community",
+      "url": "https://community.make.com/t/make-community-dos-and-donts/5",
+      "published_at": "2021-12-22",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Current rules prohibit AI-generated responses and automated content of any kind. Promotion is restricted to Hire a Pro, with one Offer Help service topic per person; selling or solicitation in other posts or DMs is prohibited.",
+      "limitations": "The displayed date is the original topic date; later policy edits are not separately dated in the retrieved view. These are current retrieved rules, not a claim that the AI provision existed in 2021."
+    },
+    {
+      "id": "S316",
+      "title": "Hacker News Guidelines",
+      "publisher": "Hacker News / Y Combinator",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "published_at": "not-stated",
+      "retrieved_at": "2026-10-20",
+      "source_type": "official_policy",
+      "evidence_summary": "Guidelines prohibit generated or AI-edited text and automated posting. Users should not use HN primarily for promotion or solicit votes, comments, or submissions.",
+      "limitations": "This is a clear exclusion from unattended AI distribution, even though generic Actor-marketing checklists recommend HN. Public reading can still inform research."
+    }
+  ],
+  "leads": [
+    {
+      "id": "B01",
+      "name": "Enhance Tech Solutions",
+      "evidence_grade": "E1",
+      "source_ids": [
+        "S101"
+      ],
+      "source_url": "https://apify.com/partners/find/enhance-tech-solutions",
+      "contact_url": "https://apify.com/partners/find/enhance-tech-solutions",
+      "observed_need_or_service": "Its Apify profile offers e-commerce scraping, product and price tracking, analytics feeds, schema alignment for GTINs, product IDs and retailer feeds, and data cleaning with version-controlled mappings.",
+      "fit_inference": "A possible technical interview or delivery partnership candidate for repeatable post-scrape cleanup and acceptance checks. Its existing services overlap substantially with the proposed offer; willingness to buy is unverified.",
+      "product_gap": "The published catalog example uses a fixed schema. The workbench supports validated flat-field ToolSpec mappings, but does not supply general GTIN or retailer-feed semantics, taxonomy management, or a production feed integration.",
+      "qualification_question": "Do you have a recurring product JSON cleanup step whose input, expected output and acceptance rules could be demonstrated with a redacted sample?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B02",
+      "name": "Makeitfuture",
+      "evidence_grade": "E1",
+      "source_ids": [
+        "S102",
+        "S116"
+      ],
+      "source_url": "https://www.makeitfuture.com/ai-agents/product-enhancement",
+      "contact_url": "https://www.makeitfuture.com/book-a-call",
+      "observed_need_or_service": "Its product enrichment service covers supplier feeds, structured product attributes, missing fields, duplicate catalogue content, Merchant Center feed fields, and connections to stores, PIM and ERP systems.",
+      "fit_inference": "A possible workflow feedback, referral or tool procurement candidate for deterministic cleanup and acceptance reports inside its catalogue delivery work. It already sells overlapping capabilities, so purchasing or subcontracting must not be assumed.",
+      "product_gap": "v0.1.0 supports bounded flat-field ToolSpec mappings and generic CSV output, but does not provide product enrichment, Merchant Center compliance, a universal mapping UI, CSV ingestion, or Shopify/PIM/ERP connectors.",
+      "qualification_question": "Would a repeatable JSON cleanup and acceptance report replace a measurable manual QA step in one current catalogue project?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B03",
+      "name": "Vertica A/S",
+      "evidence_grade": "E1",
+      "source_ids": [
+        "S103",
+        "S115"
+      ],
+      "source_url": "https://experts.n8n.io/partner/vertica-as",
+      "contact_url": "https://experts.n8n.io/partner/vertica-as",
+      "observed_need_or_service": "Its n8n directory profile describes an e-commerce agency. Its PIM service explicitly includes mapping source-system data, making data consistent, modelling product information and aligning data across channels.",
+      "fit_inference": "A possible PIM/product-data discovery interview or referral partner. The official profile lists larger project budgets, so a longer procurement cycle is plausible and it is not a first choice for a 14-day sale.",
+      "product_gap": "v0.1.0 does not implement PIM connectors, multi-source product modelling, cross-channel publication, or arbitrary catalogue mappings.",
+      "qualification_question": "Do smaller supplier feeds within your PIM projects still require repeated manual normalization or acceptance checks before import?",
+      "priority": "P2",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B04",
+      "name": "Datamagnet",
+      "evidence_grade": "E2",
+      "source_ids": [
+        "S104"
+      ],
+      "source_url": "https://apify.com/partners/find/datamagnet",
+      "contact_url": "https://apify.com/partners/find/datamagnet",
+      "observed_need_or_service": "Its Apify profile lists e-commerce and product data, price monitoring, structured extraction, and integrations with Apify, Make, Zapier and custom APIs.",
+      "fit_inference": "A possible post-scrape workflow buyer or delivery partner if inconsistent JSON fields or repeated URLs cause measurable rework. This is inferred from its services, not a demonstrated purchasing need.",
+      "product_gap": "v0.1.0 does not normalize arbitrary scraper outputs or supply a native Make/Zapier integration. It accepts only the fixed supported JSON shape.",
+      "qualification_question": "In one current product-data workflow, how often do inconsistent scraper fields or duplicate URLs require manual repair before the next step?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B05",
+      "name": "Parsedom Inc",
+      "evidence_grade": "E2",
+      "source_ids": [
+        "S105"
+      ],
+      "source_url": "https://apify.com/partners/find/parsedom-inc",
+      "contact_url": "https://apify.com/partners/find/parsedom-inc",
+      "observed_need_or_service": "Its Apify profile lists e-commerce and product data and end-to-end web scraping, processing, automation and visualization for structured and unstructured datasets.",
+      "fit_inference": "A possible peer interview, QA-tool buyer or referral partner for repeatable delivery checks. It already builds data solutions; its own development activity is not evidence of demand for this project.",
+      "product_gap": "v0.1.0 does not ingest arbitrary structured or unstructured source outputs, perform extraction, or generate dashboards; any paid scope must be limited to a confirmed JSON cleanup task.",
+      "qualification_question": "Which recurring delivery check takes the most manual time after scraping, and could you share a redacted input and expected output?",
+      "priority": "P2",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B06",
+      "name": "Lexis Solutions",
+      "evidence_grade": "E2",
+      "source_ids": [
+        "S106"
+      ],
+      "source_url": "https://apify.com/partners/find/lexis-solutions",
+      "contact_url": "https://apify.com/partners/find/lexis-solutions",
+      "observed_need_or_service": "Its Apify profile lists e-commerce and products, multi-source integration, clean structured data and custom data workflows. It explicitly states that it does not subcontract projects.",
+      "fit_inference": "Discovery interview, referral or reusable-tool feedback candidate only. Do not pitch white-label subcontracting as an assumed fit because its public delivery policy rejects subcontracting.",
+      "product_gap": "v0.1.0 is not a general data-solution delivery platform and has no arbitrary source or field mappings. Whether an internal validation tool adds value is unknown.",
+      "qualification_question": "Would a reusable acceptance-check tool improve your own team's delivery without outsourcing any client work, or is the existing internal tooling sufficient?",
+      "priority": "P2",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B07",
+      "name": "Hyperstack Studio",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S107"
+      ],
+      "source_url": "https://experts.n8n.io/partner/hyperstack-studio",
+      "contact_url": "https://experts.n8n.io/partner/hyperstack-studio",
+      "observed_need_or_service": "Its n8n profile offers data-stack setup, centralized data and workflow automation using n8n, Make, Airtable, Xano and BigQuery.",
+      "fit_inference": "A possible automation delivery buyer or referral partner, conditional on confirming a product-data workflow. The verified directory profile does not establish a catalogue-cleanup need.",
+      "product_gap": "v0.1.0 has no native connectors for its listed data stack and cannot normalize arbitrary retail or catalogue data.",
+      "qualification_question": "Do any current client workflows move product JSON between a scraper or supplier feed and an operational database, with a repeated cleanup or QA step?",
+      "priority": "P2",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B08",
+      "name": "DataFix B.V.",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S108"
+      ],
+      "source_url": "https://experts.n8n.io/partner/datafix-bv",
+      "contact_url": "https://experts.n8n.io/partner/datafix-bv",
+      "observed_need_or_service": "Its n8n profile offers SMB workflow development, debugging, verification, managed service and custom nodes, including reuse of logic that would otherwise require code or multiple nodes.",
+      "fit_inference": "A possible reusable-tool interview or workflow delivery buyer if a measurable repeated JSON cleanup step is found. Product catalogue use has not been established.",
+      "product_gap": "v0.1.0 has no native n8n node and cannot replace arbitrary Code node logic or handle general data schemas.",
+      "qualification_question": "Is there one repeated JSON cleanup or validation step across client workflows that currently needs custom code, and how much time does it cost?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B09",
+      "name": "Data4Prime Srl",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S109"
+      ],
+      "source_url": "https://experts.n8n.io/partner/data4prime-srl",
+      "contact_url": "https://experts.n8n.io/partner/data4prime-srl",
+      "observed_need_or_service": "Its n8n profile lists SMB work, complex ETL pipelines, data-source integrations, custom connectors and logic, end-to-end implementation and support.",
+      "fit_inference": "A possible ETL delivery buyer or referral partner, subject to verifying that a fixed or narrowly adapted product JSON task exists. No catalogue-specific need is established.",
+      "product_gap": "v0.1.0 does not implement general ETL, arbitrary connectors, source-schema discovery or unrestricted field mapping.",
+      "qualification_question": "Does one existing ETL workflow repeatedly reshape product JSON into a stable downstream schema, and can we measure its current repair or verification effort?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B10",
+      "name": "CLAUMA Consulting",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S110"
+      ],
+      "source_url": "https://apify.com/partners/find/clauma-consulting",
+      "contact_url": "https://apify.com/partners/find/clauma-consulting",
+      "observed_need_or_service": "Its Apify profile lists a Make.com partner accreditation and describes building automated workflows with Apify, Make and AI tools.",
+      "fit_inference": "A possible small-agency discovery or delivery partnership candidate for the Apify-to-Make handoff. Whether it handles product data must be established first.",
+      "product_gap": "v0.1.0 has no native Make connector and does not accept arbitrary Apify dataset schemas. No catalogue synchronization is implemented.",
+      "qualification_question": "Do you currently deliver an Apify-to-Make product-data workflow where JSON cleanup or duplicate handling needs repeated manual work?",
+      "priority": "P1",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B11",
+      "name": "Symplytics",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S111"
+      ],
+      "source_url": "https://experts.n8n.io/partner/symplytics",
+      "contact_url": "https://experts.n8n.io/partner/symplytics",
+      "observed_need_or_service": "Its n8n profile describes cross-platform workflows, APIs, ERP/CRM integrations and work with retail clients alongside other sectors.",
+      "fit_inference": "A possible retail automation interview or referral partner. General retail experience does not establish product feed or catalogue-cleanup demand.",
+      "product_gap": "v0.1.0 has no ERP/CRM connectors, broad document processing, or arbitrary retail schema support.",
+      "qualification_question": "Among your retail projects, is there a recurring product-data ingestion or acceptance task that is still repaired by hand?",
+      "priority": "P2",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B12",
+      "name": "AOE Group",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S112"
+      ],
+      "source_url": "https://experts.n8n.io/partner/aoe-group",
+      "contact_url": "https://experts.n8n.io/partner/aoe-group",
+      "observed_need_or_service": "Its n8n profile lists custom nodes, complex API and data integrations, automated tests and a claimed reference connecting inventory, sales and fulfillment.",
+      "fit_inference": "A possible commerce automation discovery or referral partner. Larger listed project budgets suggest a potentially longer procurement cycle; the inventory reference does not prove a catalogue-cleanup need.",
+      "product_gap": "v0.1.0 does not deliver production enterprise integrations, inventory synchronization, general mapping, or n8n custom nodes.",
+      "qualification_question": "Do small supplier datasets or edge integrations within larger projects create repeated product-data cleanup and acceptance work?",
+      "priority": "P3",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B13",
+      "name": "FastRocket GmbH",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S113"
+      ],
+      "source_url": "https://experts.n8n.io/partner/fastrocket-gmbh",
+      "contact_url": "https://experts.n8n.io/partner/fastrocket-gmbh",
+      "observed_need_or_service": "Its n8n profile lists ERP/CRM/API/database integration, central data hubs and validation of invoices and delivery notes, mainly for manufacturing clients.",
+      "fit_inference": "An adjacent integration referral candidate only until product master-data or catalogue synchronization is confirmed. Invoice validation is not evidence of product-data demand, and its larger project scope may lengthen procurement.",
+      "product_gap": "v0.1.0 does not process invoices, integrate ERPs, or map product master-data schemas automatically.",
+      "qualification_question": "Do you also handle product master data or catalogue imports, and is any narrow JSON normalization or validation step repeated across those projects?",
+      "priority": "P3",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "B14",
+      "name": "Dots & Arrows",
+      "evidence_grade": "E3",
+      "source_ids": [
+        "S114"
+      ],
+      "source_url": "https://experts.n8n.io/partner/dots-arrows",
+      "contact_url": "https://experts.n8n.io/partner/dots-arrows",
+      "observed_need_or_service": "Its n8n profile offers end-to-end workflow delivery and tailored integrations for clients' tools, processes and data.",
+      "fit_inference": "A reserve discovery or referral candidate. No specific product feed, scraping or catalogue-cleanup use case has been verified; its larger listed project budgets may also make a small pilot a weak fit.",
+      "product_gap": "The published example uses a fixed catalog schema; the workbench supports validated flat-field ToolSpec mappings. It is not a general integration or automation platform.",
+      "qualification_question": "Is there a current product-data workflow involving Apify or supplier JSON with repeated cleanup work; if not, is a referral to such a team appropriate?",
+      "priority": "P3",
+      "type": "business_partner_candidate",
+      "automated_contact_status": "not_verified_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted"
+    },
+    {
+      "id": "D01",
+      "name": "Demand signal D01",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S201"
+      ],
+      "source_url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/5",
+      "contact_url": null,
+      "published_at": "2026-09-06 11:02 (timezone unknown)",
+      "evidence_grade": "recent_self_report",
+      "observed_need_or_service": "Reports inconsistent supplier SKUs, column names, missing prices and stock formats; expresses interest in reliable mapping and validation at a non-enterprise price.",
+      "fit_inference": "A fixed supplier-to-target normalization and exception-review service could address part of the reported preparation work. Interest is not evidence of willingness to pay.",
+      "product_gap": "CSV ingestion, Shopify-ready export contracts, supplier SKU-to-Shopify Handle lookup and destination-specific validation are not established by the current fixed JSON normalization capability.",
+      "qualification_question": "For the most recent supplier update, what file, row count, cleanup time and remaining error would justify purchasing a fixed-scope preparation service?",
+      "priority": "P1_research",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_676989"
+    },
+    {
+      "id": "D02",
+      "name": "Demand signal D02",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S202"
+      ],
+      "source_url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/10",
+      "contact_url": null,
+      "published_at": "2026-09-07 17:00 (timezone unknown)",
+      "evidence_grade": "recent_self_report",
+      "observed_need_or_service": "Reports that the last supplier update took roughly an hour, mostly matching supplier SKUs to Shopify Handles; distinguishes price and inventory import files.",
+      "fit_inference": "The measurable lookup/preparation time is a useful problem hypothesis for a repeatable mapping service, subject to sample-level validation.",
+      "product_gap": "Cross-file lookup, destination-specific partial-update semantics and generation of Shopify price/inventory imports exceed basic JSON normalization.",
+      "qualification_question": "Does the same lookup recur for the next supplier file, and would a reusable reviewed mapping remove enough time to justify a paid pilot?",
+      "priority": "P1_research",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_676989"
+    },
+    {
+      "id": "D03",
+      "name": "Demand signal D03",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S203"
+      ],
+      "source_url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/4",
+      "contact_url": null,
+      "published_at": "2026-09-06 08:05 (timezone unknown)",
+      "evidence_grade": "recent_self_report",
+      "observed_need_or_service": "Describes reconciliation taking about an hour for a 3,000-SKU catalog, with SKU/Handle mismatch, damaged identifiers and unnecessary full-file updates as failure cases.",
+      "fit_inference": "Useful operator/expert evidence for identifier preservation and exception reporting; this does not establish that the handle is a merchant buyer.",
+      "product_gap": "SKU-to-Handle joins, previous/current file comparison and Shopify import correctness require capabilities beyond fixed JSON field normalization.",
+      "qualification_question": "Which reconciliation step remains manual today, and can its input and expected output be expressed as a fixed rule on a small masked sample?",
+      "priority": "P2_expert_research",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_676989"
+    },
+    {
+      "id": "D04",
+      "name": "Demand signal D04",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S204"
+      ],
+      "source_url": "https://community.shopify.com/t/product-import-integration-for-pos-retailers/687184",
+      "contact_url": null,
+      "published_at": "2026-09-24 20:32 (timezone unknown)",
+      "evidence_grade": "recent_self_report",
+      "observed_need_or_service": "Reports product data entry as a major bottleneck when retailers add new SKUs; asks for an integration importing supplier descriptions, prices and inventory after wholesale purchase.",
+      "fit_inference": "Supplier catalog preparation may be one paid subproblem, but the stated desired outcome is a broader purchase-to-POS integration.",
+      "product_gap": "Supplier integrations, purchase triggers, product creation and live POS/store import are not covered by fixed JSON normalization.",
+      "qualification_question": "Would an import-ready reviewed file solve a paid portion of the bottleneck, or is an end-to-end supplier purchase integration essential?",
+      "priority": "P1_qualify_scope",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_687184"
+    },
+    {
+      "id": "D05",
+      "name": "Demand signal D05",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S205"
+      ],
+      "source_url": "https://community.shopify.com/t/shopify-metafield-mapping-when-syncing-products-from-unopim/676877",
+      "contact_url": null,
+      "published_at": "2026-09-05 07:28 (timezone unknown)",
+      "evidence_grade": "recent_self_report",
+      "observed_need_or_service": "Is integrating UnoPim product attributes with Shopify metafields and asks about text, numeric, select/multiselect, boolean and multiple-value mapping, including later type changes.",
+      "fit_inference": "Field/type normalization is relevant to a preflight step; this may represent an integrator ICP rather than an end merchant. Role and buying authority are unverified.",
+      "product_gap": "Shopify definition lifecycle, schema migration, dynamic mapping and synchronization execution are outside the established JSON normalizer scope.",
+      "qualification_question": "Is there a fixed typed mapping and representative JSON batch that could be validated before the existing sync, without modifying Shopify definitions?",
+      "priority": "P1_integrator_research",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_676877"
+    },
+    {
+      "id": "D06",
+      "name": "Demand signal D06",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S206"
+      ],
+      "source_url": "https://community.shopify.com/t/supplier-sku-cost-tax-bulk-editing/622276",
+      "contact_url": null,
+      "published_at": "2026-05-12 16:49 (timezone unknown)",
+      "last_self_report_at": "2026-07-08 15:35 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Reports 10,516 variants and 200-plus suppliers, manual Supplier SKU/cost/tax work, and an existing Inventory Planner workflow used to create files for Shopify purchase-order imports.",
+      "fit_inference": "A real, already tooled operating environment with file preparation work, but the broad pain includes purchasing and receiving rather than normalization alone. Existing tool use does not prove budget for this offer.",
+      "product_gap": "PO lifecycle, procurement, receiving, multi-warehouse operations, cross-system reconciliation and cost handling substantially exceed current capability.",
+      "qualification_question": "After the purchase-order import changes, what manual file preparation still remains and can one supplier's repeatable batch be isolated?",
+      "priority": "P2_revalidate_current_need",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_622276"
+    },
+    {
+      "id": "D07",
+      "name": "Demand signal D07",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S207"
+      ],
+      "source_url": "https://community.shopify.com/t/adding-supplier-skus-to-products-that-can-map-to-purchase-orders/631789",
+      "contact_url": null,
+      "published_at": "2026-06-08 19:07 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Wants supplier-specific SKUs stored separately from store SKUs and automatically carried into purchase orders to avoid manual entry.",
+      "fit_inference": "A supplier-to-store mapping table may be relevant, but the desired result is native purchase-order linkage. Continued need and willingness to accept file preparation are unknown.",
+      "product_gap": "Persistent SKU relationships, Shopify metafields and PO linkage are not established fixed JSON normalization capabilities.",
+      "qualification_question": "Is maintaining the supplier-to-store identifier map still manual, and would a reviewed mapping file help without native PO automation?",
+      "priority": "P2_revalidate_scope",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_631789"
+    },
+    {
+      "id": "D08",
+      "name": "Demand signal D08",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S208"
+      ],
+      "source_url": "https://community.make.com/t/api-installation-into-shopify/90779",
+      "contact_url": null,
+      "published_at": "2025-08-31 00:46 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Needs thousands of supplier JSON products safely synced to Shopify: SKU matching, changed-field updates, duplicate-match handling and action logs; already has a basic Make workflow.",
+      "fit_inference": "The explicit JSON input is unusually close to the current artifact's input shape, but this is an old archived request and the full desired solution is much broader.",
+      "product_gap": "Cross-dataset identity resolution, diffing, Shopify creation/update, bulk orchestration and persistent action logs are not established by the current normalizer.",
+      "qualification_question": "If this need still exists, can a pre-sync JSON cleanup/exception step provide standalone value inside the existing workflow?",
+      "priority": "P3_historical_evidence",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "make_90779",
+      "topic_status": "archived_closed_2025-09-30"
+    },
+    {
+      "id": "D09",
+      "name": "Demand signal D09",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S209"
+      ],
+      "source_url": "https://community.make.com/t/update-shopify-inventory-with-csv-export-but-only-for-matching-skus/80357",
+      "contact_url": null,
+      "published_at": "2025-04-28 18:26 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Wants daily POS CSV stock updates applied only to matching Shopify SKUs, while ignoring source products that are not in the store.",
+      "fit_inference": "Field and number normalization could be a small preparation step. The core request is a join plus conditional inventory update, and current demand is unverified.",
+      "product_gap": "CSV adapter, external SKU lookup and conditional Shopify inventory writes exceed fixed JSON normalization.",
+      "qualification_question": "Does the current workflow already handle matching, and is there still any recurring input-format or validation problem before that step?",
+      "priority": "P3_historical_evidence",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "make_80357"
+    },
+    {
+      "id": "D10",
+      "name": "Demand signal D10",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S210"
+      ],
+      "source_url": "https://community.n8n.io/t/changing-an-excel-sheet-to-a-certain-format/83459",
+      "contact_url": null,
+      "published_at": "2025-03-02 13:40 (timezone unknown)",
+      "last_self_report_at": "2025-03-10 15:31 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Wants supplier Excel columns placed into a fixed product/price template, selling-price calculations and a workflow that can handle a different source layout each time.",
+      "fit_inference": "Repeatable fixed mappings are a good fit hypothesis; adaptive schema detection is a separate unproven capability. This is old evidence, not a current buying request.",
+      "product_gap": "Excel ingestion/export, dynamic source detection, margin-calculation scope and email delivery are not established current capabilities.",
+      "qualification_question": "Can the recurring inputs be reduced to a finite set of approved schemas, and which fixed transformation currently consumes time?",
+      "priority": "P3_historical_evidence",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "n8n_83459"
+    },
+    {
+      "id": "D11",
+      "name": "Demand signal D11",
+      "type": "public_demand_signal",
+      "source_ids": [
+        "S211"
+      ],
+      "source_url": "https://community.shopify.com/t/how-to-handle-constantly-changing-product-catalog/395054",
+      "contact_url": null,
+      "published_at": "2025-02-17 02:53 (timezone unknown)",
+      "evidence_grade": "historical_self_report",
+      "observed_need_or_service": "Manages roughly 10,000 products across eight brands with high monthly turnover; needs missing content collected, products formatted/imported and discontinued lines handled.",
+      "fit_inference": "Catalog normalization is only a subproblem. The main request includes missing data acquisition and ongoing catalog management, making this weak for the initial narrow offer.",
+      "product_gap": "PDF extraction, scraping/enrichment, images, discontinued-product detection and recurring Shopify synchronization exceed current capability.",
+      "qualification_question": "Is there already a structured supplier feed whose preparation alone is costly, separate from collecting missing descriptions and images?",
+      "priority": "P3_historical_low_scope_fit",
+      "automated_contact_status": "research_only_do_not_send",
+      "buying_intent": "unknown",
+      "status": "researched_not_contacted",
+      "topic_id": "shopify_395054"
+    }
+  ],
+  "channels": [
+    {
+      "id": "C01",
+      "name": "Apify Store search and categories",
+      "rank": 1,
+      "automated_status": "owned_channel_conditional",
+      "url": "https://apify.com/store",
+      "source_ids": [
+        "S301",
+        "S302",
+        "S303",
+        "S306"
+      ],
+      "recommended_action": "Prepare a narrow, accurate Actor listing with tested examples, clear delivered-record pricing, and self-service runs and payment inside Apify.",
+      "entry_conditions": [
+        "Existing authorized account and Actor ownership",
+        "Public publishing requirements satisfied",
+        "Billing and payment readiness before monetization",
+        "Current session or scheduled task authorized for the exact remote changes"
+      ],
+      "do_not_do": [
+        "Promote off-platform paid services or alternative payment gateways in Store content without written Apify agreement",
+        "Count owner or test runs as external demand",
+        "Claim free-plan usage is creator revenue",
+        "Promise cash settlement within the 14-day experiment"
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Owned GitHub repository and runnable integration examples",
+      "rank": 2,
+      "automated_status": "owned_channel_conditional",
+      "url": "https://github.com/VictoR0213/quota-to-cash",
+      "source_ids": [
+        "S307"
+      ],
+      "recommended_action": "Prepare useful README examples, input/output fixtures, and n8n/Make import files in the owned repository, linking interested users to the Apify Actor.",
+      "entry_conditions": [
+        "Owner-authorized repository write access",
+        "Project-related technical content remains the primary purpose",
+        "Publish only after local examples and links are checked"
+      ],
+      "do_not_do": [
+        "Advertise in other users' issues or repositories",
+        "Harvest GitHub contact details for unsolicited email",
+        "Automate stars, follows, fake accounts, or bulk promotion",
+        "Present repository stars or downloads as paid demand"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Apify MCP and Apify AI discovery",
+      "rank": 3,
+      "automated_status": "owned_channel_conditional",
+      "url": "https://docs.apify.com/mcp",
+      "source_ids": [
+        "S302",
+        "S308"
+      ],
+      "recommended_action": "Prepare an accurate discoverable title, schemas, pricing, and deterministic examples; check discovery with public search/detail tools and let independent agents choose whether to buy.",
+      "entry_conditions": [
+        "Published Actor and searchable metadata",
+        "Limited permissions for MCP discovery/execution eligibility",
+        "Additional PPE-only, no-Standby, and KYC conditions if testing per-request agentic payment eligibility"
+      ],
+      "do_not_do": [
+        "Assume search visibility guarantees ranking or customers",
+        "Fund another agent's purchase and count it as independent demand",
+        "Initiate paid validation runs without a specific authorized budget",
+        "Claim accountless discovery means execution is free"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Apify Actor-to-Actor integration discovery",
+      "rank": 4,
+      "automated_status": "conditional_unverified",
+      "url": "https://docs.apify.com/integrations/actors",
+      "source_ids": [
+        "S309",
+        "S301"
+      ],
+      "recommended_action": "Prepare an integration-ready normalization target and examples consuming existing scraper output; research the exact catalog requirements before proposing remote configuration.",
+      "entry_conditions": [
+        "Integration-ready requirements verified",
+        "Input and output compatibility demonstrated with public or synthetic fixtures",
+        "Only owned Actor configuration is changed"
+      ],
+      "do_not_do": [
+        "Assume automatic catalog admission",
+        "Alter another user's workflow",
+        "Promote through another creator's support issues",
+        "Run upstream paid Actors solely to inflate activity"
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Apify Experts partner discovery",
+      "rank": 5,
+      "automated_status": "conditional_unverified",
+      "url": "https://apify.com/partners/find",
+      "source_ids": [
+        "S310"
+      ],
+      "recommended_action": "Research providers with public normalization, schema-mapping, CRM-cleanup, or Apify integration services and prepare individual sample-based partnership briefs. Keep outbound messages unsent until the specific route permits automated commercial contact and sending is authorized.",
+      "entry_conditions": [
+        "Current public business evidence for each candidate",
+        "Specific contact-route and automation rules verified before any outreach",
+        "Explicit authorization and supported account for external sending"
+      ],
+      "do_not_do": [
+        "Treat a public email or accepting-clients label as marketing consent",
+        "Claim a provider is already a customer or partner",
+        "Infer buying intent from service descriptions",
+        "Schedule mass outreach to the whole directory"
+      ]
+    },
+    {
+      "id": "C06",
+      "name": "n8n official template library",
+      "rank": 6,
+      "automated_status": "conditional_unverified",
+      "url": "https://support.n8n.io/article/becoming-an-n8n-template-creator-and-getting-help",
+      "source_ids": [
+        "S311",
+        "S314"
+      ],
+      "recommended_action": "Build and test a useful workflow template in the owned repository. Treat creator-library submission as a separate conditional route, not as permission to post on the n8n forum.",
+      "entry_conditions": [
+        "Authorized creator account",
+        "Complete Creator Hub submission rules read",
+        "Unattended AI submission permission established",
+        "Template review and initial one-at-a-time limit accommodated"
+      ],
+      "do_not_do": [
+        "Assume the forum and template library have identical rules",
+        "Automate submission before verifying permission",
+        "Promise approval inside 14 days",
+        "Make a template depend on hidden paid calls or credentials"
+      ]
+    },
+    {
+      "id": "C07",
+      "name": "Apify community and Discord",
+      "rank": 7,
+      "automated_status": "conditional_unverified",
+      "url": "https://docs.apify.com/legal/community-code-of-conduct",
+      "source_ids": [
+        "S312",
+        "S313"
+      ],
+      "recommended_action": "Read public discussions to identify recurring data-cleaning needs. Prepare a relevant, contextual demonstration privately; post only if the specific channel explicitly permits the automation and promotion route.",
+      "entry_conditions": [
+        "Current channel-specific rules inspected",
+        "Server permission for a compliant bot or supported publishing integration",
+        "An on-topic channel that allows the specific promotion",
+        "Explicit authorization for sending"
+      ],
+      "do_not_do": [
+        "Automate a normal Discord user account",
+        "Send unsolicited project links in other users' threads",
+        "Cold-DM or cross-post in bulk",
+        "Treat lack of a visible bot ban as permission"
+      ]
+    },
+    {
+      "id": "C08",
+      "name": "n8n community forum",
+      "rank": 8,
+      "automated_status": "read_only_no_automated_posting",
+      "url": "https://community.n8n.io/t/this-forum-is-for-humans-by-humans/305091",
+      "source_ids": [
+        "S314"
+      ],
+      "recommended_action": "Read public problem statements as research, record their URLs and dates, and build relevant examples outside the forum.",
+      "entry_conditions": [
+        "Publicly accessible research content",
+        "No forum posting or messaging in this no-human workflow"
+      ],
+      "do_not_do": [
+        "Publish unattended AI-written questions, replies, or guides",
+        "Use AI replies across many threads to appear active",
+        "Bypass the human-engagement rule by disguising AI text"
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "Make community forum",
+      "rank": 9,
+      "automated_status": "read_only_no_automated_posting",
+      "url": "https://community.make.com/t/make-community-dos-and-donts/5",
+      "source_ids": [
+        "S315"
+      ],
+      "recommended_action": "Research public normalization and JSON-mapping questions without replying; prepare examples and scenario files in the owned repository.",
+      "entry_conditions": [
+        "Publicly accessible research content",
+        "No automated or AI-generated forum contributions"
+      ],
+      "do_not_do": [
+        "Post AI-generated responses or automated content",
+        "Solicit through ordinary threads or DMs",
+        "Treat the Hire a Pro promotion exception as an exception to the AI-content ban",
+        "Create multiple Offer Help listings"
+      ]
+    },
+    {
+      "id": "C10",
+      "name": "Hacker News",
+      "rank": 10,
+      "automated_status": "read_only_no_automated_posting",
+      "url": "https://news.ycombinator.com/newsguidelines.html",
+      "source_ids": [
+        "S316"
+      ],
+      "recommended_action": "Read public discussions for problem language and objections. Keep this channel out of the unattended publishing schedule.",
+      "entry_conditions": [
+        "Read-only public research",
+        "No generated-text submissions, comments, or automated posting"
+      ],
+      "do_not_do": [
+        "Publish generated or AI-edited text",
+        "Automate posting",
+        "Solicit votes, comments, or submissions",
+        "Treat generic marketing advice recommending HN as overriding its current rules"
+      ]
+    }
+  ],
+  "pricingFacts": {
+    "as_of": "2026-10-20",
+    "timezone": "Asia/Singapore",
+    "status": "research_only_no_monetization_or_paid_calls_performed",
+    "experiment_price_hypothesis": {
+      "currency": "USD",
+      "per_start": 0.01,
+      "per_delivered_record": 0.002,
+      "is_verified_market_price": false,
+      "is_current_live_price_verified": false,
+      "source_ids": [
+        "S306"
+      ],
+      "examples_one_run_before_platform_cost": [
+        {
+          "delivered_records": 100,
+          "gross_event_fees_usd": 0.21,
+          "after_20_percent_commission_usd": 0.168
+        },
+        {
+          "delivered_records": 1000,
+          "gross_event_fees_usd": 2.01,
+          "after_20_percent_commission_usd": 1.608
+        },
+        {
+          "delivered_records": 10000,
+          "gross_event_fees_usd": 20.01,
+          "after_20_percent_commission_usd": 16.008
+        }
+      ],
+      "limitations": "Arithmetic scenario for one paid-plan external run, not a forecast. Actual costs, applicable tier prices, refunds, settlement, and customer demand are unverified."
+    },
+    "facts": [
+      {
+        "id": "PF01",
+        "statement": "PPE platform profit is documented as 0.8 times eligible event revenue minus platform costs. Paid-plan revenue and costs count; free-plan users do not contribute creator revenue.",
+        "source_ids": [
+          "S304"
+        ],
+        "experiment_implication": "Track independent eligible paid-plan demand separately from free adoption, owner tests, grants, and promotional activity. Platform eligibility is not final cash settlement."
+      },
+      {
+        "id": "PF02",
+        "statement": "Monetization setup requires billing and payment details. Payout additionally requires completed identity verification/KYC.",
+        "source_ids": [
+          "S303",
+          "S305"
+        ],
+        "experiment_implication": "Verify actual readiness before starting Day 1. AI must not invent legal identity, submit fabricated documents, or claim that readiness has been checked."
+      },
+      {
+        "id": "PF03",
+        "statement": "Published payout guidance uses the previous month's profits: invoices on day 11, automatic approval on day 14 if untouched, and payouts on days 21-25. Only legitimate users who have already paid are included in payout invoices.",
+        "source_ids": [
+          "S305"
+        ],
+        "experiment_implication": "A proposed 2026-10-21 through 2026-11-03 experiment crosses two earning months. October usage maps to the November payout cycle; November usage maps to the December cycle. Neither a charge event nor estimated profit proves cash received."
+      },
+      {
+        "id": "PF04",
+        "statement": "The payout guide lists USD 20 for PayPal and Wise and USD 100 for other methods. The September 15 Store terms list USD 20 for PayPal and USD 100 for other options, without separately naming Wise.",
+        "source_ids": [
+          "S305",
+          "S301"
+        ],
+        "experiment_implication": "Record the discrepancy and verify the selected method in Console or with Apify. Do not promise a USD 20 Wise payout or any payout within 14 days."
+      },
+      {
+        "id": "PF05",
+        "statement": "The platform supports automatic start and default-dataset-item events. Charge for saved, accessible results and respect run spending limits.",
+        "source_ids": [
+          "S306"
+        ],
+        "experiment_implication": "Audit synthetic and custom event paths for duplicate billing before enabling the hypothesis. Retain run IDs, delivered counts, charged counts, actual event fees, and errors as evidence."
+      },
+      {
+        "id": "PF06",
+        "statement": "Significant pricing changes normally have a 14-day notice and monthly restriction. The setup guide says the waiting period does not apply when there are no paying users.",
+        "source_ids": [
+          "S303"
+        ],
+        "experiment_implication": "Hold the initial price fixed for the cohort and test positioning or use cases instead of assuming daily live price increases are available."
+      },
+      {
+        "id": "PF07",
+        "statement": "Store terms restrict off-platform product/service promotion in Actor and Store content and the use of payment gateways outside Apify.",
+        "source_ids": [
+          "S301"
+        ],
+        "experiment_implication": "Keep paid Actor use and checkout within Apify. Do not insert an external paid-service or deposit link in the Actor README, description, issues, or reviews."
+      },
+      {
+        "id": "PF08",
+        "statement": "The official monetization overview describes separate eligibility for per-request agentic payments, including PPE without added usage billing, limited permissions, no Standby mode, and completed KYC.",
+        "source_ids": [
+          "S302"
+        ],
+        "experiment_implication": "Treat agentic-payment availability as a conditional distribution capability, not as a reason to self-fund purchases or claim independent demand."
+      }
+    ],
+    "evidence_ladder": [
+      {
+        "level": 1,
+        "name": "successful_external_delivery",
+        "required": "A real external user receives useful results. Free usage may qualify for delivery, but not paid demand."
+      },
+      {
+        "level": 2,
+        "name": "eligible_external_paid_usage_provisional",
+        "required": "Independent customer, positive actual eligible event charges, successful accessible delivery, and exclusion of owner/test/subsidized activity. Store evidence by run and anonymized customer identifier."
+      },
+      {
+        "level": 3,
+        "name": "settled_platform_earnings",
+        "required": "Platform settlement or payout-invoice evidence, with refund and unpaid-invoice adjustments recorded."
+      },
+      {
+        "level": 4,
+        "name": "cash_received",
+        "required": "Actual receipt in the owner's payout account, recorded separately from charges and estimated profit."
+      }
+    ],
+    "explicit_non_revenue_metrics": [
+      "GitHub stars",
+      "public Actor user counts",
+      "owner runs",
+      "test runs",
+      "free-plan event fees",
+      "listing views",
+      "search impressions",
+      "estimated demand from competitor public statistics"
+    ],
+    "execution_boundary": "This artifact is a dated plan input. No messages were sent, accounts created, billing altered, paid services called, or scheduled execution configured. Unknown channel automation permission means read-only research until verified."
+  },
+  "excludedSignals": [
+    {
+      "name": "Excluded signal X01",
+      "source_url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989/12",
+      "observed_at": "2026-09-08 05:46 (timezone unknown)",
+      "reason": "Describes real preparation pain elsewhere in the topic but explicitly states that Claude is sufficient for the current workflow. Do not count as an unmet-demand buyer.",
+      "status": "excluded_existing_solution_sufficient",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X02",
+      "source_url": "https://community.shopify.com/t/feature-request-improvements-to-shopify-purchase-orders/630758/20",
+      "observed_at": "2026-09-22 13:58 (timezone unknown)",
+      "reason": "Explicitly asks to keep the thread focused on Shopify's native PO workflow rather than third-party tools after receiving pitches. Record the preference and do not pitch.",
+      "status": "excluded_do_not_pitch",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X03",
+      "source_url": "https://community.n8n.io/t/extract-from-file-with-mismatched-headers-and-data/151476/10",
+      "observed_at": "2025-07-23 13:10 (timezone unknown)",
+      "reason": "The reporter confirms that extracting as XLSX solved the malformed CSV/header workflow after settings adjustments. Keep only as a historical failure-mode example.",
+      "status": "excluded_resolved",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X04",
+      "source_url": "https://community.shopify.com/t/how-do-you-handle-supplier-spreadsheets-when-updating-your-store/676989",
+      "observed_at": "2026-09-05 23:22 (timezone unknown)",
+      "reason": "The opening post explicitly identifies the author as a developer researching the workflow before building. It is not first-person merchant purchasing demand.",
+      "status": "excluded_developer_discovery_post",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X05",
+      "source_url": "https://community.shopify.com/t/how-are-you-handling-product-imports-from-multiple-suppliers/622631",
+      "observed_at": "2026-05-14 14:57 (timezone unknown)",
+      "reason": "The author is building Portaim and soliciting feedback on supplier CSV/XLSX mapping. Treat as competing supply and market research, not a confirmed customer.",
+      "status": "excluded_competing_tool_supply",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X06",
+      "source_url": "https://community.shopify.com/t/i-built-a-browser-based-supplier-csv-to-shopify-converter-looking-for-merchant-feedback/695147",
+      "observed_at": "2026-10-09 11:58 (timezone unknown)",
+      "reason": "The author is developing a browser-based supplier CSV converter and seeking feedback. Its free/paid availability is supply evidence, not proof of customer demand or realized sales.",
+      "status": "excluded_competing_tool_supply",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X07",
+      "source_url": "https://community.shopify.com/t/supplier-csv-cleanup-for-shopify-imports-file-preparation-and-validation/686455",
+      "observed_at": "2026-09-22 20:56 (timezone unknown)",
+      "reason": "Offers a paid file-only supplier CSV cleanup service. An advertised starting price is not evidence of a completed sale or a prospective buyer.",
+      "status": "excluded_competing_service_supply",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X08",
+      "source_url": "https://community.shopify.com/t/supplier-price-csv-review-50-for-up-to-100-existing-shopify-variants/687149",
+      "observed_at": "2026-09-24 15:49 (timezone unknown)",
+      "reason": "Advertises exact-SKU supplier price CSV review as a paid service. Use only as offer-positioning evidence; no customer payment was verified.",
+      "status": "excluded_competing_service_supply",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X09",
+      "source_url": "https://github.com/craftcms/feed-me/issues/1767",
+      "observed_at": "unknown",
+      "reason": "Search indexing showed a product-feed variant-SKU matching issue dated 2026-09-03, but direct issue retrieval failed and the author/content could not be verified. Do not promote to verified lead evidence.",
+      "status": "excluded_primary_page_unverified",
+      "automated_contact_status": "research_only_do_not_send"
+    },
+    {
+      "name": "Excluded signal X10",
+      "source_url": "https://community.shopify.com/t/how-often-do-you-sync-supplier-stock-with-your-shopify-store/700544",
+      "observed_at": "2026-10-19 01:11 (timezone unknown)",
+      "reason": "Recent merchant self-report concerns four-hour inventory sync gaps, stock buffers and unavailable-item orders. This is adjacent synchronization risk, not evidence of a paid cleaning/normalization need.",
+      "status": "excluded_adjacent_not_initial_offer",
+      "automated_contact_status": "research_only_do_not_send"
+    }
+  ]
+}

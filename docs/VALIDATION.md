@@ -2,6 +2,16 @@
 
 This document separates implementation, local testing, live integration, and business evidence. They are not interchangeable.
 
+## Offline commercial-workflow preparation — 2026-10-20
+
+The development revision after `v0.1.0` adds an offline commercial-preparation workflow. Local verification on Windows with Node.js 24.19 passed **63 tests**, including six evidence/campaign tests; extracted-source verification also passed, along with the 3 generated Actor tests. The expanded source allowlist contains 51 files. These new workflow commands are not part of the existing `v0.1.0` tag or its assets.
+
+`commercial:check` validates 43 source records, 25 research candidates, 10 channels, the 14-day queue and four disabled execution flags. `commercial:plan` only prints the suggested dates and tasks. `commercial:status` separates planned targets from recorded evidence; the checked-in empty evidence reports zero events, charges, settlements and cash receipts. Distinct-customer counts prevent repeat visits or quotes from inflating the corresponding denominators.
+
+Tests cover free/self-funded/sponsored exclusions, duplicate event/run IDs, genuine repeat-input timing, financial-stage references, campaign restrictions and unique participant counts. These are schema/logic checks, not independent customer or payment verification. No contact, cloud run, pricing activation or recurring campaign occurs through the new commands. Hosted results for this revision belong to its own [Actions run](https://github.com/VictoR0213/quota-to-cash/actions), not the earlier release's CI.
+
+See the [14-day workflow](COMMERCIAL_VALIDATION_14_DAYS.md), [candidate shortlist](commercial/LEAD_SHORTLIST.md) and [draft messages](commercial/OUTREACH_TEMPLATES.md).
+
 ## GitHub publication and hosted CI — 2026-10-20
 
 The source is public at [VictoR0213/quota-to-cash](https://github.com/VictoR0213/quota-to-cash). The repository name reflects the original experiment: put spare AI coding capacity into useful tools and measure actual receipts. QuotaForge remains the workbench's application and package name. GitHub reports both the author and committer of baseline [`af94513`](https://github.com/VictoR0213/quota-to-cash/commit/af9451325223befcd8b5f13002b2963163ee7340) as **VictoR0213**. The push-triggered workflow's actor and triggering actor are also VictoR0213.

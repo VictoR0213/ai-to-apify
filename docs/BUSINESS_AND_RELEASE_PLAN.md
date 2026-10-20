@@ -145,6 +145,8 @@ Use GitHub to distribute the workbench and reusable examples. Use the Actor list
 
 ### First 14-day demand experiment
 
+The executable preparation package is now described in [COMMERCIAL_VALIDATION_14_DAYS.md](COMMERCIAL_VALIDATION_14_DAYS.md). It contains a source-linked candidate pool, a day-by-day AI-owned queue, channel restrictions, draft copy and a local evidence checker. Its default is preparation only; no outreach, monetization change or recurring execution is activated. The fully autonomous channel plan favors owned surfaces and permitted opt-in conversations because some community forums prohibit automated content. Use the linked workflow's dated evidence and activation conditions before execution.
+
 These are experiment targets, not predicted conversion rates:
 
 1. Identify 20-30 relevant candidates and complete 10 substantive problem conversations.

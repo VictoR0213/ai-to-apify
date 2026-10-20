@@ -21,6 +21,8 @@ jobs:
           node-version: ${{ matrix.node }}
       - name: Deterministic local tests
         run: node --run test
+      - name: Validate offline commercial preparation and zero-evidence baseline
+        run: node --run commercial:check
       - name: Clean local demo and generated Actor tests
         run: node --run demo:check
       - name: Rebuild source preview and verify an extracted checkout

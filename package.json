@@ -15,7 +15,10 @@
     "doctor": "node src/cli.mjs doctor",
     "demo:check": "node scripts/check-demo.mjs",
     "preview:pack": "node scripts/preview.mjs pack",
-    "preview:check": "node scripts/preview.mjs check"
+    "preview:check": "node scripts/preview.mjs check",
+    "commercial:check": "node scripts/commercial.mjs check",
+    "commercial:plan": "node scripts/commercial.mjs plan",
+    "commercial:status": "node scripts/commercial.mjs status"
   },
   "bin": {
     "quotaforge": "src/cli.mjs"

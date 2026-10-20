@@ -1,0 +1,386 @@
+{
+  "version": 1,
+  "mode": "preparation_only",
+  "executionEnabled": false,
+  "outboundEnabled": false,
+  "spendingEnabled": false,
+  "scheduleEnabled": false,
+  "timezone": "Asia/Singapore",
+  "proposedStart": "2026-10-21",
+  "durationDays": 14,
+  "offer": {
+    "name": "Fixture-verified JSON normalization for repeatable data workflows",
+    "scope": "Validate one narrow JSON record transformation for an independent customer, using authorized redacted or synthetic examples and a fixed acceptance fixture, then propose self-service delivery through an Apify Actor.",
+    "currentCapabilities": [
+      "A local open-source dashboard and CLI generate a bounded declarative ToolSpec using an installed provider CLI.",
+      "The trusted runtime supports field mapping, string trimming and case normalization, supported type conversion, deduplication, and sorting within its allowlist.",
+      "Independent fixtures check expected JSON output before Actor packaging.",
+      "The repository documents one public catalog-normalization Actor and an earlier checked cloud publication; this plan does not reverify its live state.",
+      "The local ledger separates pending amounts, receipts, and costs; it does not independently verify payment."
+    ],
+    "proposedOnly": [
+      "A deployed self-service intake and asynchronous AI-operated commercial workflow",
+      "A minimal customer-led improvement selected only after three authorized samples",
+      "A row-level diagnostic or audit report, if a real sample demonstrates demand and a separate acceptance fixture verifies the feature",
+      "Activated creator monetization, paying-customer telemetry, and automated settlement reconciliation"
+    ],
+    "exclusions": [
+      "No resale of subscription quota, provider account access, or credentials",
+      "No promise of profit, remaining-quota measurement, or guaranteed revenue",
+      "No claim that CSV ingestion or Shopify-ready exports, Shopify-specific support, or row-level audit reporting is already implemented",
+      "No customer-data scraping, source-system credentials, private personal data, or production write access required for this validation",
+      "No external messages, live posts, customer runs, paid services, billing changes, or schedules are authorized by this preparation-only manifest"
+    ]
+  },
+  "pricing": {
+    "currency": "USD",
+    "startFeeUsd": 0.01,
+    "deliveredRecordFeeUsd": 0.002,
+    "status": "hypothesis_not_activated"
+  },
+  "targets": {
+    "researchCandidates": 25,
+    "qualifiedConversations": 10,
+    "authorizedSamples": 3,
+    "selfServeTrials": 5,
+    "payingCustomers": 3,
+    "repeatCustomers": 1,
+    "qualifiedVisitsForDemandDecision": 20,
+    "qualifiedOffersForPriceDecision": 5,
+    "sampleContributors": 3,
+    "trialCustomers": 5
+  },
+  "days": [
+    {
+      "day": 1,
+      "phase": "readiness_and_baseline",
+      "actions": [
+        "After separate execution authorization, have AI inspect owned-account, channel, billing, cost-control, intake, and evidence readiness without changing fees or buying services.",
+        "Record the current Actor build, actual pricing, ownership, and initial counts; retain unknown values as unknown.",
+        "Keep n8n, Make, and Hacker News forums read-only and all unverified bot routes disabled.",
+        "If readiness is delayed, shift the actual 14-day window; do not count preparation days as customer exposure."
+      ],
+      "requiredEvidence": [
+        "Dated readiness record",
+        "Actual start date or blocked status",
+        "Zero-baseline cohort metrics",
+        "Approved execution scope if a later launch is requested"
+      ],
+      "stopCondition": "Do not launch while this manifest is preparation_only or any execution flag is false. If platform identity or account intervention is required, mark that dependency BLOCKED and continue only independent local preparation."
+    },
+    {
+      "day": 2,
+      "phase": "owned_landing_and_intake",
+      "actions": [
+        "Prepare an owned landing document explaining the narrow JSON outcome, actual limitations, example results, and hypothetical fixed price.",
+        "Prepare a maximum-five-question asynchronous intake with a sample-use authorization field and synthetic/redacted sample guidance.",
+        "Define anonymous cohort and source identifiers without collecting credentials, payment details, or unnecessary personal data."
+      ],
+      "requiredEvidence": [
+        "Draft landing content",
+        "Draft five-question intake",
+        "Data-minimization and retention statement",
+        "Implemented and authorized intake endpoint before any future publication"
+      ],
+      "stopCondition": "Keep the landing and intake as drafts until their actual hosting, permissions, and execution authorization are established; do not direct users to an unimplemented endpoint."
+    },
+    {
+      "day": 3,
+      "phase": "owned_examples_and_discovery",
+      "actions": [
+        "Prepare one native-JSON before/after fixture and a reproducible local walkthrough using supported transformations.",
+        "Prepare optional n8n/Make integration examples in the owned repository without claiming official approval or community publication.",
+        "Prepare the Actor's searchable title and schemas and a no-charge MCP discovery check for a later authorized execution phase."
+      ],
+      "requiredEvidence": [
+        "Fixture and expected output",
+        "Local example verification result",
+        "Draft integration instructions",
+        "Discovery evidence only if later authorized and actually checked"
+      ],
+      "stopCondition": "Do not publish untested examples, claim unverified MCP visibility, run paid Actors, or post generated content to forums that prohibit it."
+    },
+    {
+      "day": 4,
+      "phase": "asynchronous_problem_research",
+      "actions": [
+        "During a separately authorized live phase, have AI process voluntary inbound answers and permitted business-channel replies toward ten qualified asynchronous conversations.",
+        "Use at most five questions to capture recurring job, present workaround, desired output, frequency or scale, and willingness to test the disclosed price.",
+        "Prepare personalized outreach drafts only for individually verified suitable business channels; keep them unsent unless outreach has been explicitly authorized."
+      ],
+      "requiredEvidence": [
+        "Actual reply or opt-in reference for each conversation",
+        "Problem and workflow summary",
+        "Evidence of channel permission before any outbound action",
+        "Separate counts for researched leads and responding prospects"
+      ],
+      "stopCondition": "Do not treat a researched company, inferred pain point, generated persona, or unanswered draft as a conversation. Unknown route permission keeps outbound disabled."
+    },
+    {
+      "day": 5,
+      "phase": "authorized_samples_and_one_improvement",
+      "actions": [
+        "Collect up to three independently supplied, expressly authorized redacted or synthetic JSON samples during an authorized live phase.",
+        "Have AI compare desired outcomes and choose only one minimal supported change that addresses the repeated job.",
+        "If a requested feature is outside current capabilities, document it as proposed until implemented and independently verified."
+      ],
+      "requiredEvidence": [
+        "Three sample-use authorization references or an explicit shortfall",
+        "Minimized sample files",
+        "Agreed expected output for each fixture",
+        "One selected improvement with a rejection list for unrelated requests"
+      ],
+      "stopCondition": "Do not use unauthorized or sensitive production samples, invent customer samples, or select a broader feature on the assumption that three real samples exist."
+    },
+    {
+      "day": 6,
+      "phase": "fixture_contract_and_local_delivery",
+      "actions": [
+        "Have AI implement only the selected bounded improvement, if samples and scope support it.",
+        "Run the same independent input and expected-output fixtures without rewriting expectations to make implementation pass.",
+        "Prepare a reproducible JSON result and a concise explanation of supported and rejected inputs."
+      ],
+      "requiredEvidence": [
+        "Change diff if applicable",
+        "Unchanged acceptance expectations",
+        "Local result and fixture comparison",
+        "Known limitations"
+      ],
+      "stopCondition": "Stop delivery on any fixture mismatch, unsupported transformation, missing sample authorization, or scope expansion requiring unimplemented capabilities."
+    },
+    {
+      "day": 7,
+      "phase": "same_data_delivery_verification",
+      "actions": [
+        "Verify the proposed delivery path against the same authorized fixture data and exact output contract.",
+        "Prepare self-service instructions, run-size limits, failure guidance, and a clear spending-limit explanation.",
+        "Record local checks separately from any future authorized cloud acceptance run, build publication, or customer delivery."
+      ],
+      "requiredEvidence": [
+        "Same-fixture comparison",
+        "Exact build reference for any actual cloud check",
+        "Self-service instructions",
+        "Cost estimate and error handling evidence"
+      ],
+      "stopCondition": "A local pass does not authorize deployment or spending. Block the cloud-dependent path if it lacks explicit authorization or if the exact delivered build is unverified."
+    },
+    {
+      "day": 8,
+      "phase": "fixed_price_offer",
+      "actions": [
+        "Prepare one fixed cohort quote: USD 0.01 per start plus USD 0.002 per delivered record, subject to actual platform configuration and disclosures.",
+        "Only after separate authorization and billing readiness, allow prospective customers to see the actual live price and decide independently whether to run the Actor.",
+        "Record qualified explicit offers separately from page visits, free trials, and expressions of interest."
+      ],
+      "requiredEvidence": [
+        "Disclosed quote version",
+        "Actual active pricing evidence if later enabled",
+        "Offer denominators and independent prospect decisions",
+        "No self-funded purchase in the cohort"
+      ],
+      "stopCondition": "Keep pricing hypothetical while monetization is unactivated. Do not configure billing, increase live prices, send quotes, or initiate any paid run under this draft manifest."
+    },
+    {
+      "day": 9,
+      "phase": "customer_self_service_trials",
+      "actions": [
+        "During a future authorized live phase, have AI observe up to five independently initiated self-service trials and answer opted-in technical questions through permitted channels.",
+        "Record completion, useful output, eligible actual charges, run cost, and reasons for failure without requesting customer credentials.",
+        "Separate free-plan tests from eligible independent paid-plan use."
+      ],
+      "requiredEvidence": [
+        "Customer-initiated run reference",
+        "Successful accessible result",
+        "Actual event-charge evidence",
+        "Eligibility and test-account exclusions",
+        "Actual cost evidence when available"
+      ],
+      "stopCondition": "Never create a purchase on a customer's behalf without their instruction, pay with the project owner's money to simulate demand, or count a charged free-plan event as creator revenue."
+    },
+    {
+      "day": 10,
+      "phase": "paid_usage_reconciliation",
+      "actions": [
+        "Reconcile independent eligible paid use against delivered records, actual charges, refunds, and platform evidence.",
+        "Keep provisional event revenue, estimated net earnings, settled platform amounts, and cash receipts in separate fields.",
+        "Keep the cohort price fixed and diagnose delivery or positioning problems without inventing a successful payment."
+      ],
+      "requiredEvidence": [
+        "Evidence-linked paid-use ledger",
+        "Unique independent customer count",
+        "Refund and failure adjustments",
+        "Unknown settlement values explicitly marked"
+      ],
+      "stopCondition": "Do not report a paying customer without positive actual eligible charge and accessible delivery evidence; do not report cash without a real receipt."
+    },
+    {
+      "day": 11,
+      "phase": "repeat_use_and_one_follow_up",
+      "actions": [
+        "Observe whether a paying customer independently returns for a distinct useful job or dataset.",
+        "Prepare one optional 48-hour follow-up only for an opted-in recipient on a verified permitted route.",
+        "Stop follow-up after a refusal, opt-out, or the single reminder; do not schedule or send it in preparation mode."
+      ],
+      "requiredEvidence": [
+        "Distinct repeat-use reference",
+        "Customer initiation or recorded consent",
+        "Follow-up eligibility and prior-contact timestamp",
+        "Suppression or opt-out record when applicable"
+      ],
+      "stopCondition": "A retry, owner-triggered rerun, same-job failure recovery, or incentivized purchase is not repeat demand. No reminder may be sent without route permission and explicit outbound authorization."
+    },
+    {
+      "day": 12,
+      "phase": "refusal_and_workaround_analysis",
+      "actions": [
+        "Classify actual voluntary objections as price, missing feature, trust, no recurring need, existing free workaround, or distribution mismatch.",
+        "Compare real customer statements with observed behavior and separate unobserved assumptions.",
+        "Prepare the next minimal experiment without modifying the current cohort price or overstating an unimplemented feature."
+      ],
+      "requiredEvidence": [
+        "Anonymized objection references",
+        "Observed behavior versus inference",
+        "One proposed next experiment",
+        "No-contact preferences respected"
+      ],
+      "stopCondition": "Do not infer that silence is a price objection, repeatedly contact nonresponders, or treat generated objections as customer evidence."
+    },
+    {
+      "day": 13,
+      "phase": "cohort_quality_and_margin_review",
+      "actions": [
+        "Deduplicate customer identities and exclude owner, test, subsidized, refunded, failed-delivery, and unverified paid-use records from success counts as appropriate.",
+        "Calculate per-delivery economics using actual eligible fees and measured costs, keeping unknown costs visible.",
+        "Prepare counts and denominators for visits, qualified conversations, samples, trials, offers, paying customers, and repeat customers."
+      ],
+      "requiredEvidence": [
+        "Cohort exclusion record",
+        "Metric denominators",
+        "Measured cost and fee reconciliation",
+        "Explicit missing-data list"
+      ],
+      "stopCondition": "Do not claim positive margin with incomplete material costs or demand conversion without a trustworthy denominator."
+    },
+    {
+      "day": 14,
+      "phase": "evidence_bounded_decision",
+      "actions": [
+        "Produce an evidence-linked report for the actual 14-day window, or a preparation/readiness report if the campaign never launched.",
+        "Compare the cohort against three independent paying customers and one genuine repeat customer, with delivery and economics evidence.",
+        "Mark insufficient traffic, too few qualified offers, unresolved billing, or incomplete eligibility evidence as inconclusive rather than no demand.",
+        "Recommend continue, narrow/pivot, extend distribution, or stop based on the decision rules; create no new schedule or outbound work automatically."
+      ],
+      "requiredEvidence": [
+        "Actual window or not-launched status",
+        "Linked independent paid and repeat evidence",
+        "Traffic and offer denominators",
+        "Costs and settlement status",
+        "Decision with limits and next proposed scope"
+      ],
+      "stopCondition": "Do not declare commercial validation from likes, public user counts, promises, free trials, self-funded runs, or unreceived payouts; do not execute a follow-on campaign without separate authorization."
+    }
+  ],
+  "readiness": [
+    {
+      "id": "R01",
+      "status": "unknown",
+      "requirement": "Separate authorization for an actual launch; the current request permits preparation and GitHub updates only."
+    },
+    {
+      "id": "R02",
+      "status": "unknown",
+      "requirement": "Owned Apify account, Actor ownership, exact build, current price, billing details, payment method, and KYC state verified through authorized read-only access."
+    },
+    {
+      "id": "R03",
+      "status": "unknown",
+      "requirement": "Each proposed distribution route has current verified rules; AI-prohibited forums remain read-only and unknown bot permission is not treated as consent."
+    },
+    {
+      "id": "R04",
+      "status": "not_implemented",
+      "requirement": "A deployed and authorized customer-facing intake with sample-use permission, retention limits, and no unnecessary personal data."
+    },
+    {
+      "id": "R05",
+      "status": "not_implemented",
+      "requirement": "A supported autonomous intake, response, delivery, opt-out, and evidence workflow that does not need daily operator labor."
+    },
+    {
+      "id": "R06",
+      "status": "not_implemented",
+      "requirement": "Actual paid-customer attribution and revenue/cost reconciliation beyond owner-visible run costs and self-reported ledger entries."
+    },
+    {
+      "id": "R07",
+      "status": "unknown",
+      "requirement": "Three authorized independent samples and acceptance expectations, before selecting a customer-led feature."
+    },
+    {
+      "id": "R08",
+      "status": "unknown",
+      "requirement": "Explicit budget, run caps, and separate approval before any future paid operation or monetization change."
+    },
+    {
+      "id": "R09",
+      "status": "not_implemented",
+      "requirement": "A persistent execution environment and scheduled runner, only if later requested; no schedule exists or is enabled by this manifest."
+    }
+  ],
+  "decisionRules": [
+    {
+      "id": "DR01",
+      "condition": "Current mode is preparation_only or any execution gate is false",
+      "outcome": "PREPARED_NOT_LAUNCHED",
+      "action": "Produce drafts, local verification, and an explicit missing-readiness list only."
+    },
+    {
+      "id": "DR02",
+      "condition": "A platform requires identity verification, owner-only account recovery, or other nondelegable account intervention",
+      "outcome": "BLOCKED_DEPENDENCY",
+      "action": "Record the exact dependency and continue independent local preparation; never impersonate the owner or fabricate documents."
+    },
+    {
+      "id": "DR03",
+      "condition": "At least 3 independent eligible paying customers and at least 1 genuine repeat customer, with successful delivery and measured sustainable unit economics",
+      "outcome": "POSITIVE_INITIAL_SIGNAL",
+      "action": "Propose a narrow continuation; do not claim general product-market fit or guaranteed profitability."
+    },
+    {
+      "id": "DR04",
+      "condition": "Fewer than 20 trustworthy qualified visits or fewer than 5 explicit qualified offers, or missing reliable denominators",
+      "outcome": "INCONCLUSIVE_DISTRIBUTION",
+      "action": "Do not declare no demand or price rejection. Propose improving permitted inbound discovery and extending the test."
+    },
+    {
+      "id": "DR05",
+      "condition": "At least 20 qualified visits and 5 explicit qualified offers, reliable delivery, but zero independent eligible paying customers",
+      "outcome": "NEGATIVE_INITIAL_PAID_SIGNAL",
+      "action": "Report the limited tested offer and audience; use actual objections to propose narrowing or revising the offer, not a universal no-demand claim."
+    },
+    {
+      "id": "DR06",
+      "condition": "Some independent paid use exists but success targets, repeat evidence, eligibility, or material cost evidence are incomplete",
+      "outcome": "INCONCLUSIVE_OR_PARTIAL_SIGNAL",
+      "action": "Report exact counts and missing evidence; propose one bounded follow-up experiment."
+    },
+    {
+      "id": "DR07",
+      "condition": "Only free users, owner/test purchases, unverified charges, public usage statistics, or expressions of interest exist",
+      "outcome": "NO_VERIFIED_PAID_SIGNAL",
+      "action": "Separate adoption and interest from paid evidence; assess distribution sufficiency before interpreting the result."
+    },
+    {
+      "id": "DR08",
+      "condition": "Platform event fees or estimated earnings exist without a settled invoice or actual payout receipt",
+      "outcome": "CASH_RECEIPT_UNVERIFIED",
+      "action": "Report provisional revenue, settled earnings, and cash separately. October and November usage can settle in different later monthly cycles."
+    },
+    {
+      "id": "DR09",
+      "condition": "Channel rules forbid AI content or automated posting, or automation permission is unknown",
+      "outcome": "READ_ONLY_CHANNEL",
+      "action": "Research public material and prepare owned-channel assets; do not publish, message, or bypass the restriction."
+    }
+  ]
+}

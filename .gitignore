@@ -7,4 +7,5 @@ node_modules/
 coverage/
 exports/
 release/
+research/
 .DS_Store
