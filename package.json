@@ -1,0 +1,23 @@
+{
+  "name": "quotaforge",
+  "version": "0.1.0",
+  "description": "Turn personal AI development time into tested, deployable tools. Measure what actually happens.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "start": "node src/cli.mjs serve",
+    "test": "node test/run.mjs",
+    "demo": "node src/cli.mjs demo",
+    "doctor": "node src/cli.mjs doctor",
+    "demo:check": "node scripts/check-demo.mjs",
+    "preview:pack": "node scripts/preview.mjs pack",
+    "preview:check": "node scripts/preview.mjs check"
+  },
+  "bin": {
+    "quotaforge": "src/cli.mjs"
+  }
+}

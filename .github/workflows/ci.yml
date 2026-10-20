@@ -1,0 +1,27 @@
+name: Local preview checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    name: ${{ matrix.os }} / Node ${{ matrix.node }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        node: [22, 24]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Deterministic local tests
+        run: node --run test
+      - name: Clean local demo and generated Actor tests
+        run: node --run demo:check
+      - name: Rebuild source preview and verify an extracted checkout
+        run: node --run preview:check

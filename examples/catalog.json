@@ -1,0 +1,72 @@
+{
+  "name": "public-catalog-cleaner",
+  "brief": "Normalize a public catalog: map title to name and trim it; trim and lowercase category; trim url; convert price to a number. name, category and url are required; price is optional. Keep the first record for each url, then sort by name ascending.",
+  "fixtures": [
+    {
+      "name": "Normalize, deduplicate and sort",
+      "input": {
+        "records": [
+          {
+            "title": " Beta ",
+            "category": " TOOLS ",
+            "url": " https://example.org/b ",
+            "price": "2.5"
+          },
+          {
+            "title": " Alpha ",
+            "category": " DATA ",
+            "url": "https://example.org/a",
+            "price": "0"
+          },
+          {
+            "title": "Beta duplicate",
+            "category": "tools",
+            "url": "https://example.org/b",
+            "price": 7
+          }
+        ]
+      },
+      "expected": [
+        {
+          "name": "Alpha",
+          "category": "data",
+          "url": "https://example.org/a",
+          "price": 0
+        },
+        {
+          "name": "Beta",
+          "category": "tools",
+          "url": "https://example.org/b",
+          "price": 2.5
+        }
+      ]
+    },
+    {
+      "name": "Empty catalog",
+      "input": {
+        "records": []
+      },
+      "expected": []
+    },
+    {
+      "name": "Missing optional price",
+      "input": {
+        "records": [
+          {
+            "title": "Gamma",
+            "category": "TOOLS",
+            "url": "https://example.org/c"
+          }
+        ]
+      },
+      "expected": [
+        {
+          "name": "Gamma",
+          "category": "tools",
+          "url": "https://example.org/c",
+          "price": null
+        }
+      ]
+    }
+  ]
+}

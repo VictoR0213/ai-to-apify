@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">QuotaForge</title>
+  <desc id="desc">A local workbench for shipping useful tools. Build, verify, ship, and measure. English-language open-source prototype.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102828"/>
+      <stop offset="1" stop-color="#0a1719"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="68%" cy="25%" r="76%">
+      <stop offset="0" stop-color="#39d5b3" stop-opacity=".13"/>
+      <stop offset="1" stop-color="#39d5b3" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d1f7ed" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="480" rx="24" fill="url(#surface)"/>
+  <rect width="1280" height="480" rx="24" fill="url(#glow)"/>
+  <rect width="1280" height="480" rx="24" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1279" height="479" rx="23.5" fill="none" stroke="#8eb6aa" stroke-opacity=".2"/>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <g transform="translate(64 52)">
+      <path d="M0 12 20 0 40 12v24L20 48 0 36Z" fill="none" stroke="#65e0bf" stroke-width="2"/>
+      <path d="m11 18 9-5 9 5v12l-9 5-9-5Z" fill="#65e0bf"/>
+      <path d="m25 32 13 12" stroke="#65e0bf" stroke-width="3" stroke-linecap="round"/>
+      <text x="60" y="29" fill="#e7f0ea" font-size="17" font-weight="600" letter-spacing="2.8">QUOTAFORGE</text>
+    </g>
+    <rect x="1010" y="57" width="206" height="34" rx="17" fill="#65e0bf" fill-opacity=".08" stroke="#65e0bf" stroke-opacity=".25"/>
+    <circle cx="1029" cy="74" r="3.5" fill="#65e0bf"/>
+    <text x="1042" y="80" fill="#a8c7bd" font-size="12" font-weight="600" letter-spacing="1.2">OPEN-SOURCE PROTOTYPE</text>
+    <text x="64" y="194" fill="#f2f1df" font-size="65" font-weight="650" letter-spacing="-3">Make the session count.</text>
+    <text x="67" y="241" fill="#9dbab0" font-size="22" font-weight="400">A local workbench for tools worth shipping.</text>
+    <g transform="translate(66 300)">
+      <path d="M0 0H1148" stroke="#8eb6aa" stroke-opacity=".22"/>
+      <g transform="translate(0 31)">
+        <text y="14" fill="#65e0bf" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">01</text>
+        <text x="38" y="16" fill="#f2f1df" font-size="20" font-weight="550">Build</text>
+        <text y="46" fill="#829e95" font-size="14">Claude Code / Codex</text>
+      </g>
+      <g transform="translate(302 31)">
+        <text y="14" fill="#65e0bf" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">02</text>
+        <text x="38" y="16" fill="#f2f1df" font-size="20" font-weight="550">Verify</text>
+        <text y="46" fill="#829e95" font-size="14">Independent fixtures</text>
+      </g>
+      <g transform="translate(604 31)">
+        <text y="14" fill="#65e0bf" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">03</text>
+        <text x="38" y="16" fill="#f2f1df" font-size="20" font-weight="550">Ship</text>
+        <text y="46" fill="#829e95" font-size="14">Your Apify account</text>
+      </g>
+      <g transform="translate(906 31)">
+        <text y="14" fill="#65e0bf" font-size="12" font-family="ui-monospace, SFMono-Regular, Consolas, monospace">04</text>
+        <text x="38" y="16" fill="#f2f1df" font-size="20" font-weight="550">Measure</text>
+        <text y="46" fill="#829e95" font-size="14">Costs. Receipts. Evidence.</text>
+      </g>
+    </g>
+    <text x="66" y="440" fill="#647e77" font-size="11" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="1.3">LOCAL FIRST</text>
+    <text x="191" y="440" fill="#46645a" font-size="11">/</text>
+    <text x="213" y="440" fill="#647e77" font-size="11" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing="1.3">MIT LICENSED</text>
+    <text x="1214" y="440" text-anchor="end" fill="#647e77" font-size="11" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" letter-spacing=".8">SMALL TOOLS. CLEAR EVIDENCE.</text>
+  </g>
+</svg>

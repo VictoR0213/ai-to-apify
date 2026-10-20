@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible problem with the local workbench or a supported integration.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Remove tokens, login details, customer data, local project state, and payment records before posting.
+        For a security issue, follow SECURITY.md instead of opening a public report.
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system, Node version, and QuotaForge version or commit.
+      placeholder: Windows 11; Node 24.x; QuotaForge v0.1.0
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include commands and a small synthetic input if useful.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized evidence and integration scope
+      description: Exact error text, which step failed, and CLI version if using Codex or Claude. Say whether a paid provider or Apify action was involved. Do not paste .env, authentication output, or state.json.

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#f5f4ef">
+  <title>QuotaForge — Your local tool studio</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#workspace">Skip to workspace</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#" aria-label="QuotaForge home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" fill="none"><path d="M7 7h13v13H7zM12 12h13v13H12z" stroke="currentColor" stroke-width="2.3"/><path d="m19 19 7 7" stroke="currentColor" stroke-width="2.3"/></svg></span>
+        <span>QuotaForge<span class="brand-tag">LOCAL STUDIO</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#workspace">Workspace</a>
+        <a href="#ledger">Ledger</a>
+        <a href="#how-it-works">How it works</a>
+      </nav>
+      <div class="header-meta"><span class="connection" id="connection-status"><span class="status-dot"></span><span>Connecting</span></span><button class="icon-button" id="refresh-button" type="button" aria-label="Refresh workspace" title="Refresh workspace"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16.4 8a6.6 6.6 0 1 0-.2 4.4M16.4 3.8V8h-4.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></button></div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <div class="connection-error" id="connection-error" role="alert" hidden></div>
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-square"></span>FROM LOCAL EXPERIMENT TO USEFUL TOOL</p>
+        <h1 id="hero-heading">Make something useful.<br><span>See what it earns.</span></h1>
+        <p class="hero-description">Create and test a small data tool with your own AI setup. Publish when you are ready, and keep an honest record of income and costs.</p>
+        <div class="hero-actions"><button class="button button-primary button-large" id="demo-button" type="button"><span class="play-icon" aria-hidden="true">▶</span><span>Run local demo</span><span class="button-arrow" aria-hidden="true">↗</span></button><button class="button button-secondary button-large" id="new-project-button" type="button">Create a tool<span aria-hidden="true">+</span></button></div>
+        <p class="demo-caption">The demo uses a deterministic template, not AI. It runs locally and creates no income.</p>
+      </div>
+      <aside class="hero-note" aria-label="Your working setup">
+        <div class="note-heading"><span class="eyebrow">YOUR SETUP</span><span class="local-chip">On this machine</span></div>
+        <div id="provider-list" class="provider-list"><p class="muted">Checking local tools…</p></div>
+        <div class="setup-footer"><span class="setup-lock" aria-hidden="true">↳</span><span>Authentication stays with your local tools. Subscription balances are not read or estimated.</span></div>
+      </aside>
+    </section>
+
+    <section class="financial-overview" aria-label="Workspace financial overview">
+      <div class="section-mini-heading"><span class="eyebrow">THE LEDGER, AS IT STANDS</span><span class="muted">USD · recorded activity</span></div>
+      <div class="metrics-grid">
+        <article class="metric-card"><p class="metric-label"><span class="metric-dot mint"></span>Recorded net cash received</p><p class="metric-value" id="metric-cash">—</p><p class="metric-description">Self-reported · not independently verified</p></article>
+        <article class="metric-card"><p class="metric-label"><span class="metric-dot blue"></span>Additional expenses</p><p class="metric-value" id="metric-costs">—</p><p class="metric-description">Additional cash paid outside net payouts</p></article>
+        <article class="metric-card metric-net"><p class="metric-label"><span class="metric-dot ink"></span>Recorded net cash</p><p class="metric-value" id="metric-net">—</p><p class="metric-description">Net payouts minus additional expenses</p></article>
+        <article class="metric-card"><p class="metric-label"><span class="metric-dot sand"></span>Pending settlement</p><p class="metric-value" id="metric-pending">—</p><p class="metric-description">Tracked separately from received cash</p></article>
+      </div>
+    </section>
+
+    <p id="platform-usage" class="platform-usage">Apify reported run usage: — · Informational; excluded from recorded net cash.</p>
+    <section id="workspace" class="workspace-section" aria-labelledby="workspace-heading">
+      <div class="section-heading"><div><p class="eyebrow">BUILD, CHECK, THEN SHIP</p><h2 id="workspace-heading">Your tools <span class="count-pill" id="project-count">0</span></h2></div><p class="section-description">Start with a small, clearly testable job.</p></div>
+      <div class="workspace-grid">
+        <div class="projects-area"><div id="project-list" class="project-list" aria-live="polite"><div class="empty-state"><div class="empty-symbol" aria-hidden="true">↗</div><h3>Your first tool starts here.</h3><p>Run the local demo to see a complete generate-and-test workflow, or create a draft with your own requirements.</p><div class="empty-flow" aria-hidden="true"><span>01 · Define</span><span>→</span><span>02 · Test</span><span>→</span><span>03 · Publish</span></div></div></div></div>
+        <aside class="create-panel" id="create-panel" aria-labelledby="create-heading">
+          <div class="panel-heading"><span class="panel-index">01</span><div><h3 id="create-heading">A new tool</h3><p>A clear brief is a good starting point.</p></div></div>
+          <form id="create-form">
+            <label class="field-label" for="project-name">Tool name</label><input id="project-name" name="name" type="text" autocomplete="off" maxlength="100" placeholder="public-catalog-cleaner" required>
+            <label class="field-label" for="project-brief">What should it do?</label><textarea id="project-brief" name="brief" rows="6" placeholder="Describe the input, the expected output, and the rules to apply." required></textarea>
+            <details class="form-details"><summary><span>Acceptance fixtures</span><span class="details-hint">Advanced</span></summary><p class="field-help">JSON examples define the behavior you can check. Passing these examples does not guarantee correctness on every input.</p><label class="sr-only" for="project-fixtures">Acceptance fixtures JSON</label><textarea id="project-fixtures" class="code-input" rows="12" spellcheck="false" placeholder='[{"name":"Empty input","input":{"records":[]},"expected":[]}]'></textarea><button class="text-button" id="reset-example-button" type="button">Restore example brief and fixtures</button></details>
+            <div class="form-error" id="create-error" role="alert" hidden></div>
+            <button class="button button-primary button-full" id="create-submit" type="submit">Create draft <span aria-hidden="true">→</span></button><p class="form-footnote">Choose a template, Codex, or Claude after creating your draft.</p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="ledger-section" id="ledger" aria-labelledby="ledger-heading">
+      <div class="section-heading"><div><p class="eyebrow">REAL RECORDS, CLEAR LABELS</p><h2 id="ledger-heading">Income &amp; expenses</h2></div><button class="button button-secondary" id="toggle-ledger-button" type="button" aria-expanded="false" aria-controls="ledger-form-panel"><span aria-hidden="true">+</span> Add a record</button></div>
+      <div class="ledger-panel">
+        <div class="ledger-form-panel" id="ledger-form-panel" hidden>
+          <form id="ledger-form">
+            <div class="ledger-form-grid"><div><label class="field-label" for="ledger-project">Tool</label><select id="ledger-project" required><option value="">Choose a tool</option></select></div><div><label class="field-label" for="ledger-kind">Record type</label><select id="ledger-kind"><option value="payout">Net cash received</option><option value="expense">Additional expense</option><option value="pending">Pending settlement</option></select></div><div><label class="field-label" for="ledger-amount">Amount · USD</label><input id="ledger-amount" type="number" min="0.01" step="0.01" inputmode="decimal" placeholder="0.00" required></div><div><label class="field-label" for="ledger-date">Date</label><input id="ledger-date" type="date" required></div><div><label class="field-label" for="ledger-reference">Reference</label><input id="ledger-reference" type="text" maxlength="200" placeholder="Receipt or payment reference" required></div><div id="settles-field"><label class="field-label" for="ledger-settles">Settles pending reference <span class="optional">optional</span></label><input id="ledger-settles" type="text" maxlength="200" placeholder="Reference of an existing pending record"></div><div class="ledger-note-field"><label class="field-label" for="ledger-note">Note <span class="optional">optional</span></label><input id="ledger-note" type="text" maxlength="1000" placeholder="Add context for your records"></div></div>
+            <div class="form-error" id="ledger-error" role="alert" hidden></div>
+            <div class="ledger-form-footer"><p>Manual entries are self-reported. Record net payouts; do not add fees already deducted from those payouts as additional expenses.</p><button class="button button-primary" id="ledger-submit" type="submit">Save record</button></div>
+          </form>
+        </div>
+        <div class="ledger-table-wrap"><table class="ledger-table"><thead><tr><th scope="col">Record</th><th scope="col">Tool</th><th scope="col">Date</th><th scope="col">Source</th><th scope="col" class="amount-heading">Amount</th></tr></thead><tbody id="ledger-rows"><tr><td colspan="5" class="ledger-empty">No records yet. Add a received payment, an additional expense, or a pending amount.</td></tr></tbody></table></div>
+        <div class="ledger-note"><span class="info-symbol" aria-hidden="true">i</span><p>Publishing a tool does not create income. Record received cash only after it arrives; keep pending amounts separate.</p></div>
+      </div>
+    </section>
+
+    <section class="principles-section" id="how-it-works" aria-labelledby="principles-heading"><div class="principles-intro"><p class="eyebrow">A PRACTICAL WORKFLOW</p><h2 id="principles-heading">Build with evidence.<br>Keep the expectations real.</h2></div><div class="principle"><span class="principle-number">01 / LOCAL</span><h3>Use your own setup</h3><p>Choose an available local tool and follow its provider's permitted use. Credentials are managed on your machine.</p></div><div class="principle"><span class="principle-number">02 / TESTED</span><h3>Check specific behavior</h3><p>Fixtures test the examples you define. Review the tool's purpose, data sources, and behavior before publishing.</p></div><div class="principle"><span class="principle-number">03 / YOURS</span><h3>Run your own tool</h3><p>Cloud deployment may incur costs. Set pricing and payouts in Apify Console; finding customers remains part of the work.</p></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-inner"><span class="footer-brand">QuotaForge</span><p>A local studio for small tools and honest experiments.</p><span class="footer-label">OPEN SOURCE · LOCAL FIRST</span></div></footer>
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="false"></div>
+  <dialog id="confirm-dialog" class="dialog confirm-dialog" aria-labelledby="confirm-title"><div class="dialog-content"><div class="dialog-kicker">BEFORE YOU CONTINUE</div><h2 id="confirm-title"></h2><p id="confirm-description"></p><div class="confirm-note" id="confirm-note"></div><div class="dialog-actions"><button class="button button-secondary" id="confirm-cancel" type="button">Cancel</button><button class="button button-primary" id="confirm-accept" type="button">Continue</button></div></div></dialog>
+  <dialog id="artifact-dialog" class="dialog artifact-dialog" aria-labelledby="artifact-title"><div class="dialog-content"><div class="artifact-dialog-header"><div><div class="dialog-kicker">GENERATED ARTIFACT</div><h2 id="artifact-title">Tool files</h2></div><button class="icon-button" id="artifact-close" type="button" aria-label="Close generated files">×</button></div><div id="artifact-content"></div></div></dialog>
+</body>
+</html>

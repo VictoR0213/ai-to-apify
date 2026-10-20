@@ -1,0 +1,10 @@
+.quotaforge/
+.env
+.env.*
+!.env.example
+node_modules/
+*.log
+coverage/
+exports/
+release/
+.DS_Store
